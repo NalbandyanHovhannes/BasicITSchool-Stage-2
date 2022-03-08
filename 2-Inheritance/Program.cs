@@ -1,13 +1,12 @@
 ﻿using System;
 
-namespace MultithreadingTasks
+namespace _2_Inheritance
 {
     class Program
     {
-        private int x = 1;
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            
         }
     }
 }
