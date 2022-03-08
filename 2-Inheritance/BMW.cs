@@ -9,7 +9,7 @@ namespace _2_Inheritance
    public class BMW:BaseClass
     {
         BaseClass baseClass = new BaseClass();
-        baseClass.
+        
 
     }
 }

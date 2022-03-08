@@ -8,5 +8,9 @@
         {
             return date < 7 ? marketPrice / 10 : marketPrice / 2;
         }
+        public BaseClass()
+        {
+        }
     }
 }
+
