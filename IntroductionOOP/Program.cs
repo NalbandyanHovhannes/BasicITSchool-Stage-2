@@ -33,7 +33,7 @@ namespace IntroductionOOP
             //Abstract The instance of the class is not created if the Class is abstract.
 
 
-            //            Modifiers Outside Assembly Derived Class
+            // Modifiers Outside Assembly Derived Class
             //outside assembly derived class
             //private No No
             //public Yes Yes
