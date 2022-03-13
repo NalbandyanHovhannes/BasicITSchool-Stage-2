@@ -1,7 +1,10 @@
 ﻿using System;
+using BenchmarkDotNet.Running;
+using BenchmarkDotNet.Attributes;
 
 namespace IntroductionOOP
 {
+    [MemoryDiagnoser]
     class Program
     {
         static void Main(string[] args)
@@ -9,6 +12,8 @@ namespace IntroductionOOP
             //OOP
             //Incapsulation
             //Inheritance
+
+
             //Polymorphism
             //Abstraction
 
@@ -45,6 +50,8 @@ namespace IntroductionOOP
             IncapsulationClass1 obj1 = new IncapsulationClass1();
             //obj1.pubt = 8;
             //obj1.t = 88;
+            var result=obj1.Test1(8);
+            Console.WriteLine(result);
             IncapsulationClass2 obj2 = new IncapsulationClass2();
             //obj2.pubt = 2;
             //obj2.t = 22;
@@ -62,11 +69,21 @@ namespace IntroductionOOP
             //obj6.t = 6;
 
         }
+        // [Benchmark]
+        [MemoryDiagnoser]
 
         public class IncapsulationClass1
         {
             int t = 1;
             public int pubt = 1;
+
+            [Benchmark]
+            public int Test1(int a)
+            {
+                object b = a;
+                return (int)b;
+            
+            }
 
         }
         public class IncapsulationClass2
@@ -94,5 +111,9 @@ namespace IntroductionOOP
             protected internal int t = 1;
             public int pubt = 1;
         }
+
+        //ADD class diagram 
+        //ctor dad,fath son
+        //base ctor
     }
 }
