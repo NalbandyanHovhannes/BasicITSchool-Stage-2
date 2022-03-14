@@ -3,31 +3,29 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.32106.194
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BasicITSchool-Stage-2", "BasicITSchool-Stage-2\BasicITSchool-Stage-2.csproj", "{B97D9712-F0FC-429A-8010-413F95D22E6F}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "1-IntroductionOOP", "IntroductionOOP\1-IntroductionOOP.csproj", "{CAF28007-74DD-4F0E-8C8F-7E3B9B3351F4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2-Inheritance", "2-Inheritance\2-Inheritance.csproj", "{9E4BA44B-3655-4691-9550-F7C8A4D76748}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "2-Inheritance", "2-Inheritance\2-Inheritance.csproj", "{9E4BA44B-3655-4691-9550-F7C8A4D76748}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3-Polymorphism", "3-Polymorphism\3-Polymorphism.csproj", "{17147BF1-1FD1-4B73-B195-7984D787786C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "3-Polymorphism", "3-Polymorphism\3-Polymorphism.csproj", "{17147BF1-1FD1-4B73-B195-7984D787786C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4-AbstractClassesInterfaces", "4-AbstractClassesInterfaces\4-AbstractClassesInterfaces.csproj", "{59C38DC6-8D83-49B4-BB1A-9E52243D595C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "4-AbstractClassesInterfaces", "4-AbstractClassesInterfaces\4-AbstractClassesInterfaces.csproj", "{59C38DC6-8D83-49B4-BB1A-9E52243D595C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "5-Generics", "5-Generics\5-Generics.csproj", "{BA3A6021-F6AC-400C-A2C6-888420BA28A8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "5-Generics", "5-Generics\5-Generics.csproj", "{BA3A6021-F6AC-400C-A2C6-888420BA28A8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "6-DataStructures", "6-DataStructures\6-DataStructures.csproj", "{5918B1A6-5BC2-45D6-AF87-F61705B0D9EA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "6-DataStructures", "6-DataStructures\6-DataStructures.csproj", "{5918B1A6-5BC2-45D6-AF87-F61705B0D9EA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "7-Exceptions", "7-Exceptions\7-Exceptions.csproj", "{DE6B4D65-0C86-48CF-B978-364E504DEA16}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "7-Exceptions", "7-Exceptions\7-Exceptions.csproj", "{DE6B4D65-0C86-48CF-B978-364E504DEA16}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "8-StreamsFilesDirectories", "8-StreamsFilesDirectories\8-StreamsFilesDirectories.csproj", "{A92E533E-3824-4FF9-9A8E-83B370408815}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "8-StreamsFilesDirectories", "8-StreamsFilesDirectories\8-StreamsFilesDirectories.csproj", "{A92E533E-3824-4FF9-9A8E-83B370408815}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "9-DelegatesEvents", "9-DelegatesEvents\9-DelegatesEvents.csproj", "{AC7AE8E3-517F-45FA-A7D4-1583CE8EF7D8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "9-DelegatesEvents", "9-DelegatesEvents\9-DelegatesEvents.csproj", "{AC7AE8E3-517F-45FA-A7D4-1583CE8EF7D8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LambdaExpressionsReflectionAttributes", "LambdaExpressionsReflectionAttributes\LambdaExpressionsReflectionAttributes.csproj", "{8C97AB1E-E431-47E1-9594-DC358C82AE91}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LambdaExpressionsReflectionAttributes", "LambdaExpressionsReflectionAttributes\LambdaExpressionsReflectionAttributes.csproj", "{8C97AB1E-E431-47E1-9594-DC358C82AE91}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultithreadingThreads", "MultithreadingThreads\MultithreadingThreads.csproj", "{EFCD223E-0595-40D0-B07F-166F9B6A272C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MultithreadingThreads", "MultithreadingThreads\MultithreadingThreads.csproj", "{EFCD223E-0595-40D0-B07F-166F9B6A272C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultithreadingTasks", "MultithreadingTasks\MultithreadingTasks.csproj", "{ADAE1D47-A63B-4CF4-8FE6-C85E8EE9FD16}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MultithreadingTasks", "MultithreadingTasks\MultithreadingTasks.csproj", "{ADAE1D47-A63B-4CF4-8FE6-C85E8EE9FD16}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -35,10 +33,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{B97D9712-F0FC-429A-8010-413F95D22E6F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{B97D9712-F0FC-429A-8010-413F95D22E6F}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{B97D9712-F0FC-429A-8010-413F95D22E6F}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{B97D9712-F0FC-429A-8010-413F95D22E6F}.Release|Any CPU.Build.0 = Release|Any CPU
 		{CAF28007-74DD-4F0E-8C8F-7E3B9B3351F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{CAF28007-74DD-4F0E-8C8F-7E3B9B3351F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CAF28007-74DD-4F0E-8C8F-7E3B9B3351F4}.Release|Any CPU.ActiveCfg = Release|Any CPU

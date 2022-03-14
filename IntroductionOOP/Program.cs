@@ -12,8 +12,6 @@ namespace IntroductionOOP
             //OOP
             //Incapsulation
             //Inheritance
-
-
             //Polymorphism
             //Abstraction
 
@@ -41,17 +39,14 @@ namespace IntroductionOOP
             //internal Yes(this assembly only)   Yes(this assembly only)
             //internal protected Yes(this assembly only)   Yes
 
-            //    ~customer()
-            //    {
-            //        Dispose();
-            //    }
 
 
             IncapsulationClass1 obj1 = new IncapsulationClass1();
-            //obj1.pubt = 8;
+            obj1.pubt = 8;
             //obj1.t = 88;
             var result=obj1.Test1(8);
             Console.WriteLine(result);
+
             IncapsulationClass2 obj2 = new IncapsulationClass2();
             //obj2.pubt = 2;
             //obj2.t = 22;
@@ -70,20 +65,32 @@ namespace IntroductionOOP
 
         }
         // [Benchmark]
-        [MemoryDiagnoser]
+        //[MemoryDiagnoser]
 
         public class IncapsulationClass1
         {
-            int t = 1;
+           protected int t = 1;
             public int pubt = 1;
 
             [Benchmark]
             public int Test1(int a)
             {
+                string str = "852";
+                int w = int.Parse(str);
                 object b = a;
                 return (int)b;
             
             }
+            public IncapsulationClass1()
+            {
+
+            }
+            ~IncapsulationClass1()
+                {
+               // GCGenerationInfo;
+            }
+
+
 
         }
         public class IncapsulationClass2

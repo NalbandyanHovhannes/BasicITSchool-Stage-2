@@ -3,11 +3,6 @@
   <PropertyGroup>
     <OutputType>Exe</OutputType>
     <TargetFramework>net5.0</TargetFramework>
-    <RootNamespace>_2_Inheritance</RootNamespace>
   </PropertyGroup>
-
-  <ItemGroup>
-    <Compile Remove="NewRectangleInheritance.cs" />
-  </ItemGroup>
 
 </Project>
