@@ -31,6 +31,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Interfaces", "Interfaces\In
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OOP-1-Interface", "OOP-1-Interface\OOP-1-Interface.csproj", "{062E1DDD-4DB0-42FA-8DCB-733B02500323}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AccessModifiers", "AccessModifiers\AccessModifiers.csproj", "{28BB073B-1FAA-422B-8D50-6C976AB51CD1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -93,6 +95,10 @@ Global
 		{062E1DDD-4DB0-42FA-8DCB-733B02500323}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{062E1DDD-4DB0-42FA-8DCB-733B02500323}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{062E1DDD-4DB0-42FA-8DCB-733B02500323}.Release|Any CPU.Build.0 = Release|Any CPU
+		{28BB073B-1FAA-422B-8D50-6C976AB51CD1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{28BB073B-1FAA-422B-8D50-6C976AB51CD1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{28BB073B-1FAA-422B-8D50-6C976AB51CD1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{28BB073B-1FAA-422B-8D50-6C976AB51CD1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
