@@ -13,36 +13,37 @@ namespace Interfaces
     {
         //public int t;
 
-        //property
+        //Auto property
         public int prop1 { get; set; }
 
-        //propertyfull assign      
-
+        //propert assign      
         public int MyProperty
         {
-            get { return prop1; }
+            get { return prop1+1; }
             set { prop1 = value; }
         }
 
         void Calc()
-        { }
+        {
+        
+        }
         class Testclass
         {
+           public int o;
             public Testclass()
             {
 
             }
         }
-      
-         void Getcv();
+
+        void Getcv();
+       
 
 
     }
 
     public class InitClass : Iimplementation
     {
-       
-
         public int prop1 { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
 
         public void Getcv()

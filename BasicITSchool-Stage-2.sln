@@ -27,7 +27,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MultithreadingThreads", "Mu
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MultithreadingTasks", "MultithreadingTasks\MultithreadingTasks.csproj", "{ADAE1D47-A63B-4CF4-8FE6-C85E8EE9FD16}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Interfaces", "Interfaces\Interfaces.csproj", "{752E6F0F-5338-4A8A-999B-7ADFF04CF6F1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Interfaces", "Interfaces\Interfaces.csproj", "{752E6F0F-5338-4A8A-999B-7ADFF04CF6F1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OOP-1-Interface", "OOP-1-Interface\OOP-1-Interface.csproj", "{062E1DDD-4DB0-42FA-8DCB-733B02500323}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -87,6 +89,10 @@ Global
 		{752E6F0F-5338-4A8A-999B-7ADFF04CF6F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{752E6F0F-5338-4A8A-999B-7ADFF04CF6F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{752E6F0F-5338-4A8A-999B-7ADFF04CF6F1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{062E1DDD-4DB0-42FA-8DCB-733B02500323}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{062E1DDD-4DB0-42FA-8DCB-733B02500323}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{062E1DDD-4DB0-42FA-8DCB-733B02500323}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{062E1DDD-4DB0-42FA-8DCB-733B02500323}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
