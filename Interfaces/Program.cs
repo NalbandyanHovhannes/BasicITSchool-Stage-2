@@ -1,5 +1,6 @@
 ﻿using System;
 
+
 namespace Interfaces
 {
     class Program
@@ -25,7 +26,7 @@ namespace Interfaces
 
         void Calc()
         {
-        
+            Console.WriteLine("");
         }
         class Testclass
         {
