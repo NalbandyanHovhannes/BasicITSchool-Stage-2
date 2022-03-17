@@ -10,6 +10,7 @@ namespace _4_AbstractClassesInterfaces
         {
             Console.WriteLine(GetType());
         }
+       // public virtual void Met();
     }
     class Gun : Weapon
     {
@@ -47,6 +48,8 @@ namespace _4_AbstractClassesInterfaces
     {
         static void Main(string[] args)
         {
+            Weapon gun = new Gun();
+            //gun.
             Player player = new Player();
             Weapon[] inventory = { new Gun(), new LaserGun(), new Bow() };
             foreach (var item in inventory)
