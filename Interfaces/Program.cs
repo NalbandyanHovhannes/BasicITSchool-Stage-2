@@ -7,9 +7,17 @@ namespace Interfaces
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+             int i = 8;
+            string tt = i.ToString();
+            BaseInitClass o = new BaseInitClass();
+            var t = o.prop1;
+            o.Getcv();
+            o.Calc();
+
+
         }
     }
+
     interface Iimplementation
     {
         //public int t;
@@ -20,7 +28,7 @@ namespace Interfaces
         //propert assign      
         public int MyProperty
         {
-            get { return prop1+1; }
+            get { return prop1 + 1; }
             set { prop1 = value; }
         }
 
@@ -30,7 +38,7 @@ namespace Interfaces
         }
         class Testclass
         {
-           public int o;
+            public int o;
             public Testclass()
             {
 
@@ -38,18 +46,28 @@ namespace Interfaces
         }
 
         void Getcv();
-       
-
 
     }
 
-    public class InitClass : Iimplementation
+    public class BaseInitClass : Iimplementation
     {
         public int prop1 { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
 
         public void Getcv()
         {
-            throw new NotImplementedException();
+            Console.WriteLine("");
+        }
+        public void Calc()
+        {
+            Console.WriteLine("ururur");
         }
     }
+    public class DerivedClass : BaseInitClass
+    {
+
+
+
+
+    }
+
 }
