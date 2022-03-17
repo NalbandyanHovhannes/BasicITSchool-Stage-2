@@ -29,9 +29,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MultithreadingTasks", "Mult
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Interfaces", "Interfaces\Interfaces.csproj", "{752E6F0F-5338-4A8A-999B-7ADFF04CF6F1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OOP-1-Interface", "OOP-1-Interface\OOP-1-Interface.csproj", "{062E1DDD-4DB0-42FA-8DCB-733B02500323}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OOP-1-Interface", "OOP-1-Interface\OOP-1-Interface.csproj", "{062E1DDD-4DB0-42FA-8DCB-733B02500323}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AccessModifiers", "AccessModifiers\AccessModifiers.csproj", "{28BB073B-1FAA-422B-8D50-6C976AB51CD1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AccessModifiers", "AccessModifiers\AccessModifiers.csproj", "{28BB073B-1FAA-422B-8D50-6C976AB51CD1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NestedClass", "NestedAndSealedClass\NestedClass.csproj", "{BCDAE888-3EA0-44D2-9F25-0EAD87116D84}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SealedClass", "SealedClass\SealedClass.csproj", "{E2CE0BB3-21BD-4478-80E1-ECEF002E24C4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -99,6 +103,14 @@ Global
 		{28BB073B-1FAA-422B-8D50-6C976AB51CD1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{28BB073B-1FAA-422B-8D50-6C976AB51CD1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{28BB073B-1FAA-422B-8D50-6C976AB51CD1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BCDAE888-3EA0-44D2-9F25-0EAD87116D84}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BCDAE888-3EA0-44D2-9F25-0EAD87116D84}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BCDAE888-3EA0-44D2-9F25-0EAD87116D84}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BCDAE888-3EA0-44D2-9F25-0EAD87116D84}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E2CE0BB3-21BD-4478-80E1-ECEF002E24C4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E2CE0BB3-21BD-4478-80E1-ECEF002E24C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E2CE0BB3-21BD-4478-80E1-ECEF002E24C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E2CE0BB3-21BD-4478-80E1-ECEF002E24C4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
