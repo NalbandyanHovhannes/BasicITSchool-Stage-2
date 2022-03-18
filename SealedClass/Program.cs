@@ -15,6 +15,7 @@ namespace SealedClass
     public class Class2
     { }
     public class Class3
+    
     { }
     public sealed class SealedClass:Class1 { }
 

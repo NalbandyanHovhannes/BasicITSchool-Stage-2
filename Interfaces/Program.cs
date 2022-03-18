@@ -28,12 +28,6 @@ namespace Interfaces
 
 
 
-
-
-
-
-
-
         static void Main(string[] args)
         {
             int i = 8;
@@ -41,7 +35,7 @@ namespace Interfaces
             BaseInitClass o = new BaseInitClass();
             var t = o.prop1;
             o.Getcv();
-            o.Calc();
+            //o.Calc();
 
 
         }
@@ -61,7 +55,11 @@ namespace Interfaces
             set { prop1 = value; }
         }
 
-        void Calc()
+         void Calc2()
+        {
+            Console.WriteLine("");
+        }
+        private void Calc()
         {
             Console.WriteLine("");
         }
@@ -81,15 +79,13 @@ namespace Interfaces
     public class BaseInitClass : Iimplementation
     {
         public int prop1 { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
-
+        //Iimplementation.Testclass;
+        Iimplementation ia;
         public void Getcv()
-        {
-            Console.WriteLine("");
+        { 
+            throw new NotImplementedException();
         }
-        public void Calc()
-        {
-            Console.WriteLine("ururur");
-        }
+       
     }
     public class DerivedClass : BaseInitClass
     {

@@ -4,6 +4,9 @@
 namespace _2_Inheritance
 {
 
+    public class A1A:A2A { }
+    public class A2A:A3A { }
+    public class A3A { }
     public class Actor
     {
         public int SingleCount = 52;
