@@ -6,6 +6,10 @@ using System.Threading.Tasks;
 
 namespace _6_DataStructures
 {
+    //Singly Linked List
+    //Doubly Linked List:
+    //Circular Linked List
+    //Doubly Circular Linked List
     class LinkedList
     {
     }
