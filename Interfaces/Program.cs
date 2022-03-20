@@ -30,10 +30,10 @@ namespace Interfaces
 
         static void Main(string[] args)
         {
-            int i = 8;
-            string tt = i.ToString();
+            //int i = 8;
+            //string tt = i.ToString();
             BaseInitClass o = new BaseInitClass();
-            var t = o.prop1;
+           // var t = o.prop1;
             o.Getcv();
             //o.Calc();
 

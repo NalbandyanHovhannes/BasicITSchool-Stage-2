@@ -172,13 +172,13 @@ namespace _6_DataStructures
         {
             Node prev = null;
             Node current = singlyList.head;
-            Node temp = null;
+           // Node temp = null;
             while (current != null)
             {
-                temp = current.next;
-                current.next = prev;
-                prev = current;
-                current = temp;
+            //    temp = current.next;
+            //    current.next = prev;
+            //    prev = current;
+            //    current = temp;
             }
             singlyList.head = prev;
         }

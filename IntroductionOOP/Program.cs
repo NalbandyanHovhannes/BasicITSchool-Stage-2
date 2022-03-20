@@ -48,19 +48,19 @@ namespace IntroductionOOP
             var result=obj1.Test1(8);
             Console.WriteLine(result);
 
-            IncapsulationClass2 obj2 = new IncapsulationClass2();
+            //IncapsulationClass2 obj2 = new IncapsulationClass2();
             //obj2.pubt = 2;
             //obj2.t = 22;
-            IncapsulationClass3 obj3 = new IncapsulationClass3();
+           // IncapsulationClass3 obj3 = new IncapsulationClass3();
             //obj3.pubt = 3;
             //obj3.t = 33;
-            IncapsulationClass4 obj4 = new IncapsulationClass4();
+            //IncapsulationClass4 obj4 = new IncapsulationClass4();
             //obj4.pubt = 4;
             //obj3.t = 44;
-            IncapsulationClass5 obj5 = new IncapsulationClass5();
+            //IncapsulationClass5 obj5 = new IncapsulationClass5();
             //obj5.pubt = 55;
             //obj5.t = 5;
-            IncapsulationClass6 obj6 = new IncapsulationClass6();
+            //IncapsulationClass6 obj6 = new IncapsulationClass6();
             //obj6.pubt = 66;
             //obj6.t = 6;
 
@@ -76,8 +76,8 @@ namespace IntroductionOOP
             [Benchmark]
             public int Test1(int a)
             {
-                string str = "852";
-                int w = int.Parse(str);
+              //  string str = "852";
+               // int w = int.Parse(str);
                 object b = a;
                 return (int)b;
             

@@ -52,8 +52,8 @@ namespace _3_Polymorphism
             //MRR
             //int t =(int)8
             Animal animalCat = (Animal)cat1; //upcast
-            Anasun anasun = new Anasun();
-            Anasun pr = (Anasun)cat1;
+           // Anasun anasun = new Anasun();
+           // Anasun pr = (Anasun)cat1;
             //animalCat = cat1;
             if (cat1 is Program)
             {
@@ -64,8 +64,8 @@ namespace _3_Polymorphism
             Cat cat2 = (Cat)cat1;    //downcast
             cat2.Voice();
 
-            Animal animal1 = new Animal();
-            Animal animal2 = new Animal();
+            //Animal animal1 = new Animal();
+           // Animal animal2 = new Animal();
 
             //Console.WriteLine("Enter the magnet that You Need");
             //string animalType = Console.ReadLine();

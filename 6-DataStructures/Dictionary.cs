@@ -50,7 +50,7 @@ namespace _6_DataStructures
             /// Set Item value
             AuthorList["Mahesh Chand"] = 20;
             // Get Item value
-            Int16 age = Convert.ToInt16(AuthorList["Mahesh Chand"]);
+            //Int16 age = Convert.ToInt16(AuthorList["Mahesh Chand"]);
 
 
             // Get the collection of keys of C# Dictionary
