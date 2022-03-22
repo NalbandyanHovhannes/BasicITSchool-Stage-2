@@ -40,6 +40,10 @@ namespace _5_Generics
             TestClass1<int> obj = new TestClass1<int>();
             obj.Add(50);    //No boxing
             //int x = obj[0]; // No unboxing
+
+
+            //Array
+            //    T<>=new Array()
           
         }
     }
