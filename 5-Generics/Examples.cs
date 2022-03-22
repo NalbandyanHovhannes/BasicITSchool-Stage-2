@@ -8,15 +8,22 @@ namespace _5_Generics
 {
     class Examples
     {
-        public class Genereic
+
+        static void Swap<T>(ref T lhs, ref T rhs)
         {
-            //public <int> Method()
-            //{
-            //    return 1;
-            //}
-
-
-
+            T temp;
+            temp = lhs;
+            lhs = rhs;
+            rhs = temp;
         }
+        public static void TestSwap()
+        {
+            int a = 1;
+            int b = 2;
+
+            Swap<int>(ref a, ref b);
+            Console.WriteLine(a + " " + b);
+        }
+
     }
 }
