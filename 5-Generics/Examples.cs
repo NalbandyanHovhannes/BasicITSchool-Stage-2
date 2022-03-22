@@ -1,27 +1,43 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace _5_Generics
 {
-    class Examples
+    public class Examples
     {
 
-        static void Swap<T>(ref T lhs, ref T rhs)
+        public string  Adding<T>(T a)
+        {
+            //Console.WriteLine(a + b);
+            var castAll = a.ToString();
+            
+            return castAll;
+        }
+
+       public   void Swap<T>(  T  lhs,  T rhs)
         {
             T temp;
             temp = lhs;
             lhs = rhs;
             rhs = temp;
         }
-        public static void TestSwap()
+        public  void TestSwap()
         {
             int a = 1;
             int b = 2;
 
-            Swap<int>(ref a, ref b);
+            string a1 = "string 1";
+            string b1 = "string 2";
+
+            double a2 = 2.3;
+            double b2 = 2.8;
+
+            Swap<int>(  a,   b);
+            Console.WriteLine(a + " " + b);
+
+            Swap<string>( a1,  b1);
+            Console.WriteLine(a + " " + b);
+
+            Swap<double>( a2,  b2);
             Console.WriteLine(a + " " + b);
         }
 

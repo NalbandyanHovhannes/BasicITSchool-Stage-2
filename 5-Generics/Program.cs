@@ -6,6 +6,20 @@ namespace _5_Generics
     {
         static void Main(string[] args)
         {
+
+           
+
+            Examples ex = new Examples();
+            ex.Adding(9);
+            ex.Adding("8954");
+            ex.Adding(8.5);
+            //ex.Adding(ex.TestSwap());
+
+           ex.TestSwap();
+                 
+
+
+
             //instantiate generic with Integer
             TestClass1<int> intObj = new TestClass1<int>();
 
@@ -54,6 +68,8 @@ namespace _5_Generics
             set { obj[index] = value; }
         }
     }
+
+
 }
             
         
