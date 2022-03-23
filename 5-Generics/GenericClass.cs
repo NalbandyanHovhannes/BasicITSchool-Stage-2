@@ -30,27 +30,27 @@ namespace _5_Generics
         }
 
         // Driver class
-        class Test
-        {
+        //class Test
+        //{
 
-            // Main method
-            static void Main(string[] args)
-            {
+        //    // Main method
+        //    static void Main(string[] args)
+        //    {
 
-                // instance of string type
-                GFG<string> name = new GFG<string>();
-                name.value = "Greyyy";
+        //        // instance of string type
+        //        GFG<string> name = new GFG<string>();
+        //        name.value = "Greyyy";
 
-                // instance of float type
-                GFG<float> version = new GFG<float>();
-                version.value = 5.0F;
+        //        // instance of float type
+        //        GFG<float> version = new GFG<float>();
+        //        version.value = 5.0F;
 
-                // display GeeksforGeeks
-                Console.WriteLine(name.value);
+        //        // display GeeksforGeeks
+        //        Console.WriteLine(name.value);
 
-                // display 5
-                Console.WriteLine(version.value);
-            }
+        //        // display 5
+        //        Console.WriteLine(version.value);
+        //    }
         }
     }
 }

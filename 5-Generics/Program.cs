@@ -7,7 +7,9 @@ namespace _5_Generics
         static void Main(string[] args)
         {
 
-           
+
+            
+
 
             Examples ex = new Examples();
             ex.Adding(9);
@@ -16,12 +18,10 @@ namespace _5_Generics
             //ex.Adding(ex.TestSwap());
 
            ex.TestSwap();
-                 
 
-
-
-            //instantiate generic with Integer
-            TestClass1<int> intObj = new TestClass1<int>();
+    
+        //instantiate generic with Integer
+        TestClass1<int> intObj = new TestClass1<int>();
 
             //adding integer values into collection
             intObj.Add(1);
