@@ -10,20 +10,20 @@ namespace _6_DataStructures
     {
         public void StackMethod()
         {
-        //    Stack<> newStack = new Stack<>();
-        //    Stack<string> stack1 = newStack<string>();
-        //    string[] str = {
-        //        "MCA",
-        //        "BCA",
-        //        "BBA",
-        //        "MBA",
-        //        "MTech"
-        //    };
-        //    Stack<string> stack2 = newStack<string>(str);
-        //    Stack<string> stack3 = newStack<string>(10);
-        //    Console.WriteLine("The elements in the stack1 are:" + stack1.Count());
-        //    Console.WriteLine("The elements in the stack2 are:" + stack2.Count());
-        //    Console.WriteLine("The elements in the stack3 are:" + stack3.Count());
+            Stack<string> newStack = new Stack<string>();
+            //Stack<string> stack1 = newStack <string>();
+            string[] str = {
+                "MCA",
+                "BCA",
+                "BBA",
+                "MBA",
+                "MTech"
+            };
+          ////  Stack<string> stack2 = newStack<string>(str);
+            //Stack<string> stack3 = newStack<string>(10);
+            Console.WriteLine("The elements in the stack1 are:" + str.Count());
+            //Console.WriteLine("The elements in the stack2 are:" + stack2.Count());
+           // Console.WriteLine("The elements in the stack3 are:" + stack3.Count());
         }
     }
 }

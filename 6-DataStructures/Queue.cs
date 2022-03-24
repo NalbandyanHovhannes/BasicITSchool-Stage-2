@@ -8,29 +8,29 @@ namespace _6_DataStructures
 {
     class Queue
     {
-        //public void QueueMethod()
-        //{
-        //    Queue<string> queue = newQueue<string>();
+        public void QueueMethod()
+        {
+            Queue<string> newQueue = newQueue<string>();
 
-        //    string[] courses = { "MCA", "MBA", "BCA", "BBA", "BTech", "MTech" };
-        //    Queue<string> queue = newQueue<string>(courses);
-        //    Queue<string> queue = newQueue<string>(4);
+           // string[] courses = { "MCA", "MBA", "BCA", "BBA", "BTech", "MTech" };
+            //Queue<string> queue = newQueue<string>(courses);
+            //Queue<string> queue = newQueue<string>(4);
 
-        //    string[] courses = {
-        //        "MCA",
-        //        "MBA",
-        //        "BCA",
-        //        "BBA",
-        //        "BTech",
-        //        "MTech"
-        //    };
-        //    Queue<string> queue1 = newQueue<string>();
-        //    Queue<string> queue2 = newQueue<string>(courses);
-        //    Queue<string> queue3 = newQueue<string>(4);
-        //    Console.WriteLine("Number of elements in queue1:" + queue1.Count());
-        //    Console.WriteLine("Number of elements in queue2:" + queue2.Count());
-        //    Console.WriteLine("Number of elements in queue3:" + queue3.Count());
-        //}
+            string[] courses = {
+                "MCA",
+                "MBA",
+                "BCA",
+                "BBA",
+                "BTech",
+                "MTech"
+            };
+            Queue<string> queue1 = newQueue<string>();
+            //Queue<string> queue2 = newQueue<string>(courses);
+           // Queue<string> queue3 = newQueue<string>(4);
+            Console.WriteLine("Number of elements in queue1:" + queue1.Count());
+           // Console.WriteLine("Number of elements in queue2:" + queue2.Count());
+            //Console.WriteLine("Number of elements in queue3:" + queue3.Count());
+        }
 
         public void Method2()
         {

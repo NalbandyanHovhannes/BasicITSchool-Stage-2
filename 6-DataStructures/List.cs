@@ -71,5 +71,12 @@ namespace _6_DataStructures
             Console.ReadKey();
 
         }
+
+        public void Method2()
+        {
+            List list = new List();
+
+            
+        }
     }
 }
