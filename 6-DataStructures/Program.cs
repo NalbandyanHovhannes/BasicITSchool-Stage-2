@@ -7,7 +7,9 @@ namespace _6_DataStructures
         //array, list, linkedlist, stack, queue, dictionary
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
-        }
+            HashSet has = new HashSet();
+            has.HashMethod();
+
+                }
     }
 }

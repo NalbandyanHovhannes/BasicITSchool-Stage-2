@@ -6,30 +6,39 @@ using System.Threading.Tasks;
 
 namespace _6_DataStructures
 {
-   public class HashSet
+    public class HashSet
     {
-        public  void HashMethod()
+        public class Employee
+        {
+            public int Emp_Id { get; set; }
+
+            public string Emp_name { get; set; }
+            public string Dept_name { get; set; }
+
+        }
+        public void HashMethod()
         {
             Console.WriteLine("-----Custom HashSet With Duplicates----");
+
             HashSet<Employee> employees = new HashSet<Employee> {
                 {
                     new Employee {
-                        Emp_Id = 1, Emp_name = "Rajeev", Dept_name = "IT"
+                        Emp_Id = 1, Emp_name = "Alice", Dept_name = "IT"
                     }
                 },
                 {
                     new Employee {
-                        Emp_Id = 1, Emp_name = "Rajeev", Dept_name = "IT"
+                        Emp_Id = 1, Emp_name = "Artur", Dept_name = "IT"
                     }
                 },
                 {
                     new Employee {
-                        Emp_Id = 3, Emp_name = "Akash", Dept_name = "IT"
+                        Emp_Id = 3, Emp_name = "Misak", Dept_name = "IT"
                     }
                 },
                 {
                     new Employee {
-                        Emp_Id = 4, Emp_name = "Amit", Dept_name = "IT"
+                        Emp_Id = 4, Emp_name = "Areg", Dept_name = "IT"
                     }
                 }
             };
@@ -43,32 +52,9 @@ namespace _6_DataStructures
             Console.ReadKey();
         }
     }
-    public class Employee : IEquatable<Employee>
-    {
-        public int Emp_Id
-        {
-            get;
-            set;
-        }
-        public string Emp_name
-        {
-            get;
-            set;
-        }
-        public string Dept_name
-        {
-            get;
-            set;
-        }
-        public bool Equals(Employee other)
-        {
-            return this.Emp_Id.Equals(other.Emp_Id);
-        }
-        public override int GetHashCode()
-        {
-            return this.Emp_Id.GetHashCode();
-        }
-    }
 }
+
+    
+  
     
 
