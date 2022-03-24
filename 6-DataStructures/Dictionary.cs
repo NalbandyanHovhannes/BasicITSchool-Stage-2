@@ -12,15 +12,17 @@ namespace _6_DataStructures
         //can store any data type. This class is defined in the
         //code snippet creates a dictionary where both keys and values are string types.
 
-        Dictionary<string, string> EmployeeList = new Dictionary<string, string>();
+        Dictionary<string, string> dictionaryList = new Dictionary<string, string>();
         public void DictionaryMethod()
         {
-            EmployeeList.Add("Mahesh Chand", "Programmer");
-            EmployeeList.Add("Praveen Kumar", "Project Manager");
-            EmployeeList.Add("Raj Kumar", "Architect");
-            EmployeeList.Add("Nipun Tomar", "Asst. Project Manager");
-            EmployeeList.Add("Dinesh Beniwal", "Manager");
+            dictionaryList.Add("1", "one");
+            dictionaryList.Add("2", "two");
+            dictionaryList.Add("3", "three");
+            dictionaryList.Add("4", "four");
+            dictionaryList.Add("5", "five");
         }
+
+
 
         Dictionary<string, float> PriceList = new Dictionary<string, float>(3);
 
@@ -35,11 +37,11 @@ namespace _6_DataStructures
         {
             // Create a dictionary with string key and Int16 value pair
             Dictionary<string, Int16> AuthorList = new Dictionary<string, Int16>();
-            AuthorList.Add("Mahesh Chand", 35);
-            AuthorList.Add("Mike Gold", 25);
-            AuthorList.Add("Praveen Kumar", 29);
-            AuthorList.Add("Raj Beniwal", 21);
-            AuthorList.Add("Dinesh Beniwal", 84);
+            AuthorList.Add("Alice", 20);
+            AuthorList.Add("Davit", 25);
+            AuthorList.Add("TOma", 29);
+            AuthorList.Add("Artur", 21);
+            AuthorList.Add("Hovo", 84);
             // Read all data
             Console.WriteLine("Authors List");
             foreach (KeyValuePair<string, Int16> author in AuthorList)
@@ -101,33 +103,33 @@ namespace _6_DataStructures
         {
             // Create a dictionary with string key and Int16 value pair
             Dictionary<string, Int16> AuthorList = new Dictionary<string, Int16>();
-            AuthorList.Add("Mahesh Chand", 35);
-            AuthorList.Add("Mike Gold", 25);
-            AuthorList.Add("Praveen Kumar", 29);
-            AuthorList.Add("Raj Beniwal", 21);
-            AuthorList.Add("Dinesh Beniwal", 84);
+            AuthorList.Add("35", 35);
+            AuthorList.Add("25", 25);
+            AuthorList.Add("29", 29);
+            AuthorList.Add("21", 21);
+            AuthorList.Add("84", 84);
             // Count
             Console.WriteLine("Count: {0}", AuthorList.Count);
             // Set Item value
-            AuthorList["Neel Beniwal"] = 9;
-            if (!AuthorList.ContainsKey("Mahesh Chand"))
+            AuthorList["9"] = 9;
+            if (!AuthorList.ContainsKey("9"))
             {
-                AuthorList["Mahesh Chand"] = 20;
+                AuthorList["20"] = 20;
             }
             if (!AuthorList.ContainsValue(9))
             {
                 Console.WriteLine("Item found");
             }
             // Read all items
-            Console.WriteLine("Authors all items:");
-            foreach (KeyValuePair<string, Int16> author in AuthorList)
-            {
-                Console.WriteLine("Key: {0}, Value: {1}", author.Key, author.Value);
-            }
-            // Remove item with key = 'Mahesh Chand'
-            AuthorList.Remove("Mahesh Chand");
-            // Remove all items
-            AuthorList.Clear();
+            //Console.WriteLine("Authors all items:");
+            //foreach (KeyValuePair<string, Int16> author in AuthorList)
+            //{
+            //    Console.WriteLine("Key: {0}, Value: {1}", author.Key, author.Value);
+            //}
+            //// Remove item with key = 'Mahesh Chand'
+            //AuthorList.Remove("Mahesh Chand");
+            //// Remove all items
+            //AuthorList.Clear();
         }
     }
 }
