@@ -15,12 +15,18 @@ namespace _6_DataStructures
             public string Emp_name { get; set; }
             public string Dept_name { get; set; }
 
-        }
-        public void HashMethod()
-        {
-            Console.WriteLine("-----Custom HashSet With Duplicates----");
+            //public void Meth()
+            //{ 
+                
+            //    public int a; }
+    }
 
-            HashSet<Employee> employees = new HashSet<Employee> {
+   
+    public void HashMethod()
+    {
+        Console.WriteLine("-----Custom HashSet With Duplicates----");
+
+        HashSet<Employee> employees = new HashSet<Employee> {
                 {
                     new Employee {
                         Emp_Id = 1, Emp_name = "Alice", Dept_name = "IT"
@@ -28,7 +34,7 @@ namespace _6_DataStructures
                 },
                 {
                     new Employee {
-                        Emp_Id = 1, Emp_name = "Artur", Dept_name = "IT"
+                        Emp_Id = 1, Emp_name = "Artur", Dept_name = "IT",
                     }
                 },
                 {
@@ -42,16 +48,16 @@ namespace _6_DataStructures
                     }
                 }
             };
-            Console.WriteLine("{0,-6}{1,10}{2,-8}", "Emp_Id", "Emp_name", "Dept_name");
-            Console.WriteLine("==============================");
-            foreach (var employee in employees)
-            {
-                Console.WriteLine("{0,-8}{1,-10}{2,5}", employee.Emp_Id, employee.Emp_name, employee.Dept_name);
-            }
-            Console.WriteLine("==============================");
-            Console.ReadKey();
+        Console.WriteLine("{0,-6}{1,10}{2,-8}", "Emp_Id", "Emp_name", "Dept_name");
+        Console.WriteLine("==============================");
+        foreach (var employee in employees)
+        {
+            Console.WriteLine("{0,-8}{1,-10}{2,5}", employee.Emp_Id, employee.Emp_name, employee.Dept_name);
         }
+        Console.WriteLine("==============================");
+        Console.ReadKey();
     }
+}
 }
 
     
