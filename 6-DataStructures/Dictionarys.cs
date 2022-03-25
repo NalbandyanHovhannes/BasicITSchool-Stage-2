@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace _6_DataStructures
 {
-    class Dictionary
+    class Dictionarys
     {
         //The following Dictionary class is a generic class and
         //can store any data type. This class is defined in the
@@ -25,9 +25,17 @@ namespace _6_DataStructures
 
 
         Dictionary<string, float> PriceList = new Dictionary<string, float>(3);
-
+        Dictionary<string, string> Stringo = new Dictionary<string, string>();
+    
         public void FloatMethod()
         {
+            foreach (var item in Stringo)
+            {
+
+            }
+
+
+
             PriceList.Add("Tea", 3.25f);
             PriceList.Add("Juice", 2.76f);
             PriceList.Add("Milk", 1.15f);
@@ -36,15 +44,15 @@ namespace _6_DataStructures
         public void CreateDictionary()
         {
             // Create a dictionary with string key and Int16 value pair
-            Dictionary<string, Int16> AuthorList = new Dictionary<string, Int16>();
-            AuthorList.Add("Alice", 20);
-            AuthorList.Add("Davit", 25);
+            Dictionary<string, float> AuthorList = new Dictionary<string, float>();
+            AuthorList.Add("Alice", 20.5f);
+            AuthorList.Add("Davit", 25.9f);
             AuthorList.Add("TOma", 29);
             AuthorList.Add("Artur", 21);
             AuthorList.Add("Hovo", 84);
             // Read all data
             Console.WriteLine("Authors List");
-            foreach (KeyValuePair<string, Int16> author in AuthorList)
+            foreach (var author in AuthorList)
             {
                 Console.WriteLine("Key: {0}, Value: {1}", author.Key, author.Value);
             }
@@ -57,7 +65,7 @@ namespace _6_DataStructures
 
             // Get the collection of keys of C# Dictionary
 
-            Dictionary<string, Int16>.KeyCollection keys = AuthorList.Keys;
+            Dictionary<string, float>.KeyCollection keys = AuthorList.Keys;
             foreach (string key in keys)
             {
                 Console.WriteLine("Key: {0}", key);
@@ -66,7 +74,7 @@ namespace _6_DataStructures
             //
             // Get and display values
             // Get the collection of values of a C# Dictionary 
-            Dictionary<string, Int16>.ValueCollection values = AuthorList.Values;
+            Dictionary<string, float>.ValueCollection values = AuthorList.Values;
             foreach (Int16 val in values)
             {
                 Console.WriteLine("Value: {0}", val);

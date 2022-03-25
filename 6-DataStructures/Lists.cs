@@ -1,15 +1,14 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace _6_DataStructures
 {
-    class List
+    class Lists
     {
         public void ListMethod()
         {
+            //List ll=new List();
+            //ll<int> uu = new ll<int>();
             List<int> numberList = new List<int>();
             numberList.Add(32);
             numberList.Add(21);
@@ -18,12 +17,22 @@ namespace _6_DataStructures
             numberList.Add(89);
             // List of string
             List<string> authors = new List<string>(5);
-            authors.Add("Mahesh Chand");
-            authors.Add("Chris Love");
-            authors.Add("Allen O'neill");
-            authors.Add("Naveen Sharma");
-            authors.Add("Monica Rathbun");
-            authors.Add("David McCarter");
+            authors.Add("0");
+            authors.Add("1");
+            authors.Add("2Chris Love");
+            authors.Add("3Allen O'neill");
+            authors.Add("4Naveen Sharma");
+            authors.Add("5Monica Rathbun");
+            authors.Add("6David McCarter");
+            authors.Add("555David McCarter");
+
+            authors.RemoveRange(3, 2);
+
+            foreach (var item in authors)
+            {
+                Console.WriteLine(item);
+            }
+            Console.ReadKey();
 
             // Remove an item
             authors.Remove("New Author1");
@@ -31,13 +40,13 @@ namespace _6_DataStructures
             // Remove 3rd item
             authors.RemoveAt(3);
 
+
             // Remove a range
-            authors.RemoveRange(3, 2);
 
             // Remove all items
             authors.Clear();
 
-            Console.WriteLine(authors.IndexOf("Naveen Sharma", 2));
+            //Console.WriteLine(authors.IndexOf("Naveen Sharma", 2));
 
             //reverse
             authors.Reverse();
@@ -74,7 +83,7 @@ namespace _6_DataStructures
 
         public void Method2()
         {
-            List list = new List();
+            //List list = new List();
 
             
         }

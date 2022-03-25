@@ -10,8 +10,22 @@ namespace _6_DataStructures
     //Doubly Linked List:
     //Circular Linked List
     //Doubly Circular Linked List
-    class LinkedList
+    class LinkedLists
     {
+        public void Method11()
+        {
+            LinkedList<int> linkedlist = new LinkedList<int>();
+            linkedlist.AddFirst(8);
+            linkedlist.AddFirst(9);
+            linkedlist.AddFirst(10);
+            linkedlist.AddFirst(11);
+            foreach (var item in linkedlist)
+            {
+                Console.WriteLine(item);
+            }
+
+
+        }
         internal class Node
         {
             internal int data;
