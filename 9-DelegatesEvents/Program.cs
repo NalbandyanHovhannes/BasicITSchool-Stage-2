@@ -6,7 +6,7 @@ namespace _9_DelegatesEvents
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+           
         }
     }
 }
