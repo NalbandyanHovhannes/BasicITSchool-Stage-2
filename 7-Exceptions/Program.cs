@@ -14,6 +14,28 @@ namespace _7_Exceptions
 
         public static void Main()
         {
+
+            Testing1 test = new Testing1();
+            test.Method1();
+
+            //2nd step
+            try
+            {
+                int i = test.RecursiveMethod();
+            }
+            catch (System.Exception e)
+            {
+
+            }
+            finally
+            {
+
+            }
+
+
+
+
+
             string s = null; // For demonstration purposes.
 
             try
