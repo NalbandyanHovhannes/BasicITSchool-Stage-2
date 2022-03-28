@@ -5,7 +5,8 @@ namespace ExeptionTest
     class Program
     {
 
-        //* try − A try block identifies a block of code for which particular exceptions is activated.
+        //* try − A try block identifies a block of code for which particular exceptions is
+        //activated.
         //It is followed by one or more catch blocks.
 
         //* catch − A program catches an exception with an exception handler at the place in a 
@@ -16,7 +17,8 @@ namespace ExeptionTest
         //whether an exception is thrown or not thrown.For example,
         //if you open a file, it must be closed whether an exception is raised or not.
 
-        //* throw − A program throws an exception when a problem shows up. This is done using a throw keyword.
+        //* throw − A program throws an exception when a problem shows up. This is done
+        //using a throw keyword.
 
 
         static void M1()
@@ -27,7 +29,7 @@ namespace ExeptionTest
             }
             catch (Exception e)
             {
-                Console.WriteLine(e);
+                Console.WriteLine(e.Message);
             }
         }
         static void M2()
@@ -35,6 +37,7 @@ namespace ExeptionTest
             try
             {
                 M3();
+                //throw new Exception();
             }
             catch (Exception e)
             {
@@ -45,17 +48,18 @@ namespace ExeptionTest
         {
             try
             {
+                
                 var res = 10 / int.Parse(Console.ReadLine());
             }
             catch (Exception e)
             {
                 Console.WriteLine(e.Message);
-                throw;
+                throw e;
             }
         }
         static void Main(string[] args)
         {
-            M1();
+           // M1();
             string[] array = new string[4];// 0 1 2 3 indexsp
             try
             {
@@ -77,6 +81,7 @@ namespace ExeptionTest
             {
                 Console.WriteLine(e);
             }
+
             catch (IndexOutOfRangeException e)
             {
                 Console.WriteLine(e.Message);

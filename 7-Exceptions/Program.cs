@@ -16,6 +16,17 @@ namespace _7_Exceptions
         {
             try
             {
+                int t = 8;
+                var k = t / 0;
+            }
+            catch (Exception e)
+            {
+
+                throw e;
+            }
+            
+            try
+            {
                 int[] array = new int[2];
                 array[3] = 2;
                 var r=array[1]/int.Parse( Console.ReadLine());
@@ -28,6 +39,7 @@ namespace _7_Exceptions
             }
             catch ( Exception ex)
             {
+                
                 Console.WriteLine("error in catch block"+ex.Message);
               
             }
@@ -35,12 +47,7 @@ namespace _7_Exceptions
             finally {
                 Console.WriteLine("error in finally block" );
             }
-
-
-
-
-
-
+            
 
             Testing1 test = new Testing1();
             test.Method1();
@@ -52,7 +59,7 @@ namespace _7_Exceptions
             }
             catch (System.Exception e)
             {
-
+                throw e;
             }
             finally
             {
@@ -73,6 +80,24 @@ namespace _7_Exceptions
             {
                 Console.WriteLine("{0} Exception caught.", e);
             }
+            Test(8);
+            int ii = Test(7);
+            int u= Console.WriteLine(7 * 9 / 0);
+            static int Test(int y)
+            {
+                try
+                {
+                    return Console.WriteLine(y * y / 0);
+                }
+                catch (Exception)
+                {
+                    return y * y*y;
+                    throw;
+                }
+            }
+
+
+
         }
     }
 }
