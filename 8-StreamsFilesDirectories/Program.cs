@@ -24,11 +24,58 @@ namespace _8_StreamsFilesDirectories
             string writeText = "Hello World!";  // Create a text string
 
             //Create()    Creates or overwrites a file
-            File.Create("C:/Users/HP/Desktop/basic.txt");
+            string path = @"C:\Users\HP\Desktop\basic.txt";
+            if (File.Exists(path))
+            {
             File.WriteAllText("basic.txt", writeText);  // Create a file and write the content of writeText to it
+
+            }
+            //Delete file
+            File.Delete(path);
+            //create
+            File.Create("C:/Users/HP/Desktop/basic1.txt");
+            //copy
+            //create Matrix
+
+            //replace
+            File.Copy(path,path.Replace("1.txt",@"1\\1.txt"));
+
+            //move
+            File.Move(path, path.Replace("1.txt", @"1\\1.txt"),true);
+
+
+            //file create close
+            File.Create(path).Close();
+
+            //file dispose
+            File.Create(path).Dispose();
+
+
+
 
             string readText = File.ReadAllText("basic.txt");  // Read the contents of the file
             Console.WriteLine(readText);  // Output the con
+
+
+
+
+
+            //////////////////////FileStream
+            ///
+            string path2 = @"C:\Users\HP\Desktop\basic.txt";
+
+            FileStream file = new FileStream(path2,FileMode.OpenOrCreate);
+            file.Seek(0,SeekOrigin.End);
+            file.Close();
+
+            StreamWriter stream = new StreamWriter(file);
+            stream.WriteLine("666");
+
+            stream.Close();
+            file.Close();
+
+            
+
 
         }
 
