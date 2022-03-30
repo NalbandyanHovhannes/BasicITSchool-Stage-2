@@ -8,6 +8,7 @@ namespace _8_StreamsFilesDirectories
         static void Main(string[] args)
         {
             FileMethod();
+
         }
 
         //AppendText()    Appends text at the end of an existing file
@@ -20,6 +21,7 @@ namespace _8_StreamsFilesDirectories
         //If the file already exists, it will be overwritten.
         public static void FileMethod()
         {
+
 
             string writeText = "Hello World!";  // Create a text string
 
@@ -74,10 +76,16 @@ namespace _8_StreamsFilesDirectories
             stream.Close();
             file.Close();
 
-            
+            //using
 
 
         }
 
     }
+                //    FileStream is a Stream.Like all Streams it only deals with byte[] data.
+                //A StreamWriter : TextWriter is a Stream-decorator.A TextWriter encodes the primitive
+                //type like string, int and char to byte[] and then writes hat to the linked Stream.
+                //What context are you supposed to use it? What is their advantage and disadvantage?u
+                //You use a bare FileStream when you have byte[] data. You add a StreamWriter when you want to
+                //write text. Use a Formatter or a Serializer to write more complex data.
 }

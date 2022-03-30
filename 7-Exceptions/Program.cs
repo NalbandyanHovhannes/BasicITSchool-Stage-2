@@ -82,12 +82,13 @@ namespace _7_Exceptions
             }
             Test(8);
             int ii = Test(7);
-            int u= Console.WriteLine(7 * 9 / 0);
+            //int u= Console.WriteLine(7 * 9 / 0);
             static int Test(int y)
             {
                 try
                 {
-                    return Console.WriteLine(y * y / 0);
+                    return y;
+                   // return Console.WriteLine(y * y / 0);
                 }
                 catch (Exception)
                 {
