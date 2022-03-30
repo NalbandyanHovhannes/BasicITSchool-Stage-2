@@ -16,6 +16,14 @@ namespace _8_StreamsFilesDirectories
 
                 writer.WriteLine("The first line with text writer");
             }
+
+            using (TextReader txtR = File.OpenText("d:\\textFile.txt"))
+            {
+
+                String data = txtR.ReadToEnd();
+                Console.WriteLine(data);
+            }
+            Console.ReadLine();
         }
     }
 }

@@ -1,0 +1,28 @@
+﻿using System;
+
+namespace RefOut
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            var student = new Student
+            {
+                Name = "Susan",
+                Enrolled = false
+            };
+
+            RefClass refclass = new RefClass();
+
+            refclass.Enroll(ref student);
+
+
+            int num = 1;
+            refclass.IncrementExample(ref num);
+            // num is now 2
+
+            // student.Name is now null since a value was not passed when declaring new Student() in the Enroll method
+            // student.Enrolled is now false due to the ref modifier
+        }
+    }
+}
