@@ -1,5 +1,6 @@
 ﻿using System;
-using System.IO;  // include the System.IO namespace
+using System.IO;
+// include the System.IO namespace
 
 namespace _8_StreamsFilesDirectories
 {
@@ -21,15 +22,13 @@ namespace _8_StreamsFilesDirectories
         //If the file already exists, it will be overwritten.
         public static void FileMethod()
         {
-
-
             string writeText = "Hello World!";  // Create a text string
 
             //Create()    Creates or overwrites a file
             string path = @"C:\Users\HP\Desktop\basic.txt";
             if (File.Exists(path))
             {
-                File.WriteAllText("basic.txt", writeText);  // Create a file and write the content of writeText to it
+                File.WriteAllText("basic.txt", "Hello World!");  // Create a file and write the content of writeText to it
 
             }
             //Delete file

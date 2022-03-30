@@ -2,11 +2,13 @@
 {
     class OutClass
     {
-        public void EnrollOut(out StudentOut studentOut)
+        public void EnrollOut(out int t,out StudentOut studentOut)
         {
-            //We need to initialize the variable in the method before we can do anything
+            t = 0;
+            //We need to initialize the variable
+            //in the method before we can do anything
             studentOut = new StudentOut();
-            studentOut.Enrolled = false;
+            studentOut.Enrolled = true;
         }
     }
 
