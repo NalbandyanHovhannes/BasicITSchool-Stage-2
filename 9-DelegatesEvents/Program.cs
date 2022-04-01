@@ -35,9 +35,7 @@ namespace _9_DelegatesEvents
         {
             Console.WriteLine(i);
             return i;
-
         }
-
         public static void Method1()
         {
             Console.WriteLine("Method1");
