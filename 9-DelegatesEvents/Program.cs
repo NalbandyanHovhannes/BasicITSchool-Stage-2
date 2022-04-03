@@ -5,11 +5,22 @@ namespace _9_DelegatesEvents
     public delegate void ClassDelegate(); //global dele
     class Program
     {
+        //Delegate
         public delegate int ValuesDelegate(int i);
 
+
+        //Action
+        public delegate void Action();
+        //Action action = Method1;//return ?  16 argument
+
+        //Predicate
+        public delegate bool Predicate<T>(T value);//return bool only one argument
+
+        //Func
+        public delegate int Func(string t);
         static void Main(string[] args)
         {
-
+           
             ClassDelegate classDelegate = Method1;
             classDelegate += Method4;
             classDelegate();
@@ -28,6 +39,8 @@ namespace _9_DelegatesEvents
             valueDelegate += MethodValues;
             valueDelegate += MethodValues;
             valueDelegate((new Random()).Next(10, 50));
+
+            Action action = Method1;//return ?  16 argument
             Console.ReadLine();
 
         }
@@ -36,6 +49,7 @@ namespace _9_DelegatesEvents
             Console.WriteLine(i);
             return i;
         }
+
         public static void Method1()
         {
             Console.WriteLine("Method1");
