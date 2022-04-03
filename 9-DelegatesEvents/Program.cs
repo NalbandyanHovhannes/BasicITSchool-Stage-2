@@ -18,6 +18,8 @@ namespace _9_DelegatesEvents
 
         //Func
         public delegate int Func(string t);
+
+
         static void Main(string[] args)
         {
            
@@ -49,7 +51,6 @@ namespace _9_DelegatesEvents
             Console.WriteLine(i);
             return i;
         }
-
         public static void Method1()
         {
             Console.WriteLine("Method1");
