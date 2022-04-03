@@ -17,12 +17,12 @@ namespace _9_DelegatesEvents
         public delegate bool Predicate<T>(T value);//return bool only one argument
 
         //Func
-        public delegate int Func(string t);
+        public delegate int Func(string t, int yy);
 
 
         static void Main(string[] args)
         {
-           
+
             ClassDelegate classDelegate = Method1;
             classDelegate += Method4;
             classDelegate();
@@ -33,7 +33,7 @@ namespace _9_DelegatesEvents
             classDelegate1.Invoke();
 
             Console.WriteLine("del1+del2");
-            ClassDelegate classDelegate2 = classDelegate+ classDelegate1;
+            ClassDelegate classDelegate2 = classDelegate + classDelegate1;
             classDelegate2.Invoke();
 
             //--------Value
@@ -45,7 +45,23 @@ namespace _9_DelegatesEvents
             Action action = Method1;//return ?  16 argument
             Console.ReadLine();
 
+            Func<string, int> ffunc = Methodffunc;
+            ffunc?.Invoke("");
+
+            //-----------------eVENT 
+
+            Person person = new Person();
+            person.Eating += Person_Eating;
+            person.EatMorning(DateTime.Parse("04.04.2022 00:50:00"));
+            person.EatMorning(DateTime.Parse("04.05.2022 00:50:00"));
+
+
         }
+        public static void Person_Eating()
+        { Console.WriteLine("EatAll"); }
+
+        public static int Methodffunc(string o)
+        { return 9; }
         public static int MethodValues(int i)
         {
             Console.WriteLine(i);
@@ -71,3 +87,13 @@ namespace _9_DelegatesEvents
         }
     }
 }
+
+//The Func delegate takes zero, one or more input parameters, and returns a value
+//(with its out parameter).
+
+//Action takes zero, one or more input parameters, but does not return anything.
+
+//Predicate is a special kind of Func. It represents a method that contains a
+//set of criteria mostly defined inside an if condition and checks whether the
+//passed parameter meets those criteria or not.
+
