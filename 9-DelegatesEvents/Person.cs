@@ -21,8 +21,6 @@ namespace _9_DelegatesEvents
             if (time.Hour > 3)
             {
                 Eating?.Invoke();
-
-
             }
             else {
                 var args = new EventArgs();

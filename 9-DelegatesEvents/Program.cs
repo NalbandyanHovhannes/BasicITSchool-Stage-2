@@ -6,11 +6,11 @@ namespace _9_DelegatesEvents
     class Program
     {
         //Delegate
-        public delegate int ValuesDelegate(int i);
+        private delegate int ValuesDelegate(int i);
 
-
+        public delegate void Actionnnnnnn();
         //Action
-        public delegate void Action();
+        public delegate void  Action();
         //Action action = Method1;//return ?  16 argument
 
         //Predicate
@@ -22,31 +22,35 @@ namespace _9_DelegatesEvents
 
         static void Main(string[] args)
         {
+            ////ClassBadrjan  classBadrjan=new ClassBadrjan()
+            ////public delegate void ClassDelegate(); //global dele
+            //ClassDelegate classDelegate ;
+            //classDelegate = null;
+            ////classDelegate.Invoke();
+            //classDelegate?.Invoke();
+            
 
-            ClassDelegate classDelegate = Method1;
-            classDelegate += Method4;
-            classDelegate();
 
-            ClassDelegate classDelegate1 = new ClassDelegate(Method4);
-            classDelegate1 += Method4;
-            //classDelegate1 -= Method4;
-            classDelegate1.Invoke();
+            //ClassDelegate classDelegate1 = new ClassDelegate(Method4);
+            //classDelegate1 += Method4;
+            ////classDelegate1 -= Method4;
+            //classDelegate1.Invoke();
 
-            Console.WriteLine("del1+del2");
-            ClassDelegate classDelegate2 = classDelegate + classDelegate1;
-            classDelegate2.Invoke();
+            //Console.WriteLine("del1+del2");
+            //ClassDelegate classDelegate2 = classDelegate + classDelegate1;
+            //classDelegate2.Invoke();
 
-            //--------Value
-            var valueDelegate = new ValuesDelegate(MethodValues);
-            valueDelegate += MethodValues;
-            valueDelegate += MethodValues;
-            valueDelegate((new Random()).Next(10, 50));
+            ////--------Value
+            //var valueDelegate = new ValuesDelegate(MethodValues);
+            //valueDelegate += MethodValues;
+            //valueDelegate += MethodValues;
+            //valueDelegate((new Random()).Next(10, 50));
 
-            Action action = Method1;//return ?  16 argument
-            Console.ReadLine();
+            //Action action = Method1;//return ?  16 argument
+            //Console.ReadLine();
 
-            Func<string, int> ffunc = Methodffunc;
-            ffunc?.Invoke("");
+            //Func<string, int> ffunc = Methodffunc;
+            //ffunc?.Invoke("");
 
             //-----------------eVENT 
 
@@ -70,7 +74,6 @@ namespace _9_DelegatesEvents
         public static void Method1()
         {
             Console.WriteLine("Method1");
-
         }
         public static int Method2()
         {
@@ -85,6 +88,8 @@ namespace _9_DelegatesEvents
         {
             Console.WriteLine("Method4");
         }
+        public void Met(int a, int hjtyj, int fghfdh, int fghfha, int afghfgh, int fghfa, int fgertfa, int fjkuja, int afghfg, int sdfgfadfa, int sdfaa, int fbfsgga, int asadgfas, int sfgva, int asdfsdg, int asdgasg, int dfasddfasa, int adafgdafgsf, int asdfsad, int sdfsaa, int a5, int abh, int ah, int ads, int asd, int aerg, int aerrg, int agerg, int aerdfgdfg, int adfg, int agfdfgd, int adfgdfb, int adfgd) 
+        { }
     }
 }
 
