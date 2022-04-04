@@ -22,37 +22,37 @@ namespace _9_DelegatesEvents
 
         static void Main(string[] args)
         {
-            ////ClassBadrjan  classBadrjan=new ClassBadrjan()
-            ////public delegate void ClassDelegate(); //global dele
-            //ClassDelegate classDelegate ;
-            //classDelegate = null;
-            ////classDelegate.Invoke();
-            //classDelegate?.Invoke();
-            
+            //ClassBadrjan  classBadrjan=new ClassBadrjan()
+            //public delegate void ClassDelegate(); //global dele
+            ClassDelegate classDelegate;
+            classDelegate = null;
+            //classDelegate.Invoke();
+            classDelegate?.Invoke();
 
 
-            //ClassDelegate classDelegate1 = new ClassDelegate(Method4);
-            //classDelegate1 += Method4;
-            ////classDelegate1 -= Method4;
-            //classDelegate1.Invoke();
 
-            //Console.WriteLine("del1+del2");
-            //ClassDelegate classDelegate2 = classDelegate + classDelegate1;
-            //classDelegate2.Invoke();
+            ClassDelegate classDelegate1 = new ClassDelegate(Method4);
+            classDelegate1 += Method4;
+            //classDelegate1 -= Method4;
+            classDelegate1.Invoke();
 
-            ////--------Value
-            //var valueDelegate = new ValuesDelegate(MethodValues);
-            //valueDelegate += MethodValues;
-            //valueDelegate += MethodValues;
-            //valueDelegate((new Random()).Next(10, 50));
+            Console.WriteLine("del1+del2");
+            ClassDelegate classDelegate2 = classDelegate + classDelegate1;
+            classDelegate2.Invoke();
 
-            //Action action = Method1;//return ?  16 argument
-            //Console.ReadLine();
+            //--------Value
+            var valueDelegate = new ValuesDelegate(MethodValues);
+            valueDelegate += MethodValues;
+            valueDelegate += MethodValues;
+            valueDelegate((new Random()).Next(10, 50));
 
-            //Func<string, int> ffunc = Methodffunc;
-            //ffunc?.Invoke("");
+            Action action = Method1;//return ?  16 argument
+            Console.ReadLine();
 
-            //-----------------eVENT 
+            Func<string, int> ffunc = Methodffunc;
+            ffunc?.Invoke("");
+
+            -----------------eVENT
 
             Person person = new Person();
             person.Eating += Person_Eating;
