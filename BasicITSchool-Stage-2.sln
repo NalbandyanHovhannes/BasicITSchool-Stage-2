@@ -41,7 +41,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExeptionTest", "ExeptionTes
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExeptionTest2", "ExeptionTest2\ExeptionTest2.csproj", "{CCC004E6-E2CB-4D14-91A6-6064C2A70FD4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RefOut", "RefOut\RefOut.csproj", "{07B932AF-C431-4ED8-9767-DBB6BB6A9407}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RefOut", "RefOut\RefOut.csproj", "{07B932AF-C431-4ED8-9767-DBB6BB6A9407}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReflectionExample", "ReflectionExample\ReflectionExample.csproj", "{A16D14BE-5436-4988-BCFC-1C28E16F2D2B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AttributeExample", "AttributeExample\AttributeExample.csproj", "{2A022426-E590-433D-B0CE-D0505B303A7B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -129,6 +133,14 @@ Global
 		{07B932AF-C431-4ED8-9767-DBB6BB6A9407}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{07B932AF-C431-4ED8-9767-DBB6BB6A9407}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{07B932AF-C431-4ED8-9767-DBB6BB6A9407}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A16D14BE-5436-4988-BCFC-1C28E16F2D2B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A16D14BE-5436-4988-BCFC-1C28E16F2D2B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A16D14BE-5436-4988-BCFC-1C28E16F2D2B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A16D14BE-5436-4988-BCFC-1C28E16F2D2B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2A022426-E590-433D-B0CE-D0505B303A7B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2A022426-E590-433D-B0CE-D0505B303A7B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2A022426-E590-433D-B0CE-D0505B303A7B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2A022426-E590-433D-B0CE-D0505B303A7B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

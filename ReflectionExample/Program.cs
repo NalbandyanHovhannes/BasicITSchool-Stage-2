@@ -30,7 +30,6 @@ namespace ReflectionExample
 
             }
 
-
         }
 
         class Calc
