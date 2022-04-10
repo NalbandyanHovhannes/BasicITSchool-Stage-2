@@ -38,6 +38,7 @@ namespace _9_DelegatesEvents
 
             Console.WriteLine("del1+del2");
             ClassDelegate classDelegate2 = classDelegate + classDelegate1;
+            
             classDelegate2.Invoke();
 
             //--------Value
