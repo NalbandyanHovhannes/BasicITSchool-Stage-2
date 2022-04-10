@@ -27,7 +27,7 @@ namespace _9_DelegatesEvents
             ClassDelegate classDelegate;
             classDelegate = null;
             //classDelegate.Invoke();
-            classDelegate?.Invoke();
+            //classDelegate?.Invoke();
 
 
 
@@ -53,7 +53,7 @@ namespace _9_DelegatesEvents
             Func<string, int> ffunc = Methodffunc;
             ffunc?.Invoke("");
 
-            -----------------eVENT
+            //-----------------eVENT
 
             Person person = new Person();
             person.Eating += Person_Eating;
@@ -63,7 +63,9 @@ namespace _9_DelegatesEvents
 
         }
         public static void Person_Eating()
-        { Console.WriteLine("EatAll"); }
+        { 
+            Console.WriteLine("EatAll"); 
+        }
 
         public static int Methodffunc(string o)
         { return 9; }
