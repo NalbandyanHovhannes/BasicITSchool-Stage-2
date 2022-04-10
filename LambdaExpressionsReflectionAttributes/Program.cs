@@ -35,7 +35,9 @@ namespace LambdaExpressionsReflectionAttributes
 
             //Attribute
             var photo = new Photo("Screenshot_2.png")
-            { Path = @":\Users\HP\Desktop" };
+            { 
+                Path = @":\Users\HP\Desktop" 
+            };
 
             var type = typeof(Photo);
             var attribut = type.GetCustomAttributes(false);
