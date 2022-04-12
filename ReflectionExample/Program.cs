@@ -8,13 +8,18 @@ namespace ReflectionExample
         //Ref is a mechanism of getting information about types and objects
         static void Main(string[] args)
         {
-            Type typeInt = typeof(int); //Type is class of Reflection     //Type typeInt = typeof(Console); 
-            Console.WriteLine(typeInt.FullName);
 
-            FieldInfo[] fields = typeInt.GetFields();
-            foreach (FieldInfo fild in fields)
+            int x = 8;
+            Type typeInt = typeof(string); //Type is class of Reflection     //Type typeInt = typeof(Console); 
+            //Type typeInttt = typeof(badrjan);
+            Console.WriteLine(typeInt.FullName);
+            Console.WriteLine(typeInt.IsClass);
+            Console.WriteLine(typeInt.IsEnum);
+
+            FieldInfo[] fields = typeInt.GetFields();// int typeof
+            foreach (var fild in fields)
             {
-                object o = fild.GetValue(null);
+                object o = fild.GetValue("badrjan");
                 Console.WriteLine(o.ToString());
             }
 

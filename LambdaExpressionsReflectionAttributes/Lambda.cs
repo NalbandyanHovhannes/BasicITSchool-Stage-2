@@ -1,8 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace LambdaExpressionsReflectionAttributes
 {
@@ -23,12 +20,14 @@ namespace LambdaExpressionsReflectionAttributes
 
         public void Method()
         {
-            //var doubleList = array.Select((x) => { return x * 2; });
-            //var doubleList = array.Select(x => { return x * 2; });
-            //var doubleList = array.Select((x) => { x++; return x * 2; });
-            var doubleList = array.Select(x => x * x);
+
+            var doubleList4 = array.Select(x => x * x);
+
             var odds = array.Where(x => x % 2 == 1);
+            var odds22 = array;
+            odds22.Add(8);
             var nine = array.First(x => x == 9);
+            var nine4 = array.FirstOrDefault(x => x == 9);
             var count = array.Count(x => x > 5);
         }
     }

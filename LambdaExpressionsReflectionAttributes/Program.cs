@@ -6,6 +6,9 @@ namespace LambdaExpressionsReflectionAttributes
     {
         static void Main(string[] args)
         {
+
+            Lambda lambda = new Lambda();
+            lambda.Method();
             static double Method(float n)
             {
                 return n * n;
