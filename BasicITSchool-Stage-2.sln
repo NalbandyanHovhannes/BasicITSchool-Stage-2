@@ -43,9 +43,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExeptionTest2", "ExeptionTe
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RefOut", "RefOut\RefOut.csproj", "{07B932AF-C431-4ED8-9767-DBB6BB6A9407}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReflectionExample", "ReflectionExample\ReflectionExample.csproj", "{A16D14BE-5436-4988-BCFC-1C28E16F2D2B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReflectionExample", "ReflectionExample\ReflectionExample.csproj", "{A16D14BE-5436-4988-BCFC-1C28E16F2D2B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AttributeExample", "AttributeExample\AttributeExample.csproj", "{2A022426-E590-433D-B0CE-D0505B303A7B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AttributeExample", "AttributeExample\AttributeExample.csproj", "{2A022426-E590-433D-B0CE-D0505B303A7B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThreadExample", "ThreadExample\ThreadExample.csproj", "{15038513-AB96-45C6-A77C-DD101EFCCE6C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -141,6 +143,10 @@ Global
 		{2A022426-E590-433D-B0CE-D0505B303A7B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2A022426-E590-433D-B0CE-D0505B303A7B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2A022426-E590-433D-B0CE-D0505B303A7B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{15038513-AB96-45C6-A77C-DD101EFCCE6C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{15038513-AB96-45C6-A77C-DD101EFCCE6C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{15038513-AB96-45C6-A77C-DD101EFCCE6C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{15038513-AB96-45C6-A77C-DD101EFCCE6C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
