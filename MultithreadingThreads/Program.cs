@@ -1,5 +1,4 @@
 ﻿using System;
-using System.Diagnostics;
 using System.IO;
 using System.Text;
 using System.Threading;
@@ -10,21 +9,21 @@ namespace MultithreadingThreads
     {
         static void Main(string[] args)
         {
-            Thread thread1 = new Thread(new ThreadStart(Task1));
-            thread1.Start();            
+            Thread thread1 = new Thread(Task1);
+            thread1.Start();   
 
-            Thread thread2 = new Thread(new ParameterizedThreadStart(Task2));
-            thread2.Start(int.MaxValue);
+            Thread thread2 = new Thread(Task2);
+            thread2.Start();
 
 
-            for (int i = 0; i < 1000; i++)
+            for (int i = 0; i < 10; i++)
             {
                 int j = 1;
                 j++;
                 if (j % 2 == 0)
                 {
 
-                    Console.WriteLine("Maniiiinnnnnnnnnnnn");
+                    Console.WriteLine("Maiiiinnnnnnnnnnnn");
                 }
             }
 
@@ -35,29 +34,28 @@ namespace MultithreadingThreads
 
         static void Task1()
         {
-            for (int i = 0; i < 1000; i++)
+            for (int i = 0; i <10; i++)
             {
                 int j = 1;
                 j++;
                 if (j % 2 == 0)
                 {
-
                     Console.WriteLine("Task1111111111111111111");
                 }
             }
 
         }
 
-        static void Task2(object max)
+        static void Task2()
         {
-            for (int i = 0; i < 1000; i++)
+            for (int i = 0; i < 10; i++)
             {
                 int j = 1;
                 j++;
                 if (j % 2 == 0)
                 {
 
-                    Console.WriteLine("Task2");
+                    Console.WriteLine("Task22");
                 }
             }
 
