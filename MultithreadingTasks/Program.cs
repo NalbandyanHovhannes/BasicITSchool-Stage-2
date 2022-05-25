@@ -7,76 +7,66 @@ namespace MultithreadingTasks
     class Program
     {
 
-        //Task task = new Task(() => Console.WriteLine("Hello Task!"));
-        //task.Start();
-        //Task task = Task.Factory.StartNew(() => Console.WriteLine("Hello Task!"));
-        //Task task = Task.Run(() => Console.WriteLine("Hello Task!"));
-
-        //Task task1 = new Task(() => Console.WriteLine("Task1 is executed"));
-        //task1.Start();
-
-        //Task task2 = Task.Factory.StartNew(() => Console.WriteLine("Task2 is executed"));
-
-        //Task task3 = Task.Run(() => Console.WriteLine("Task3 is executed"));
-
-        //task1.Wait();   // wait end of task1
-        //task2.Wait();   // wait end of task2
-        //task3.Wait();   // wait end of task3
+      
+       
+       
 
 
-        //task1.Start();  
-        //task1.Wait();   
-
-       // task1.RunSynchronously();  start sync
 
 
-        private int x = 1;
-        static void Main(string[] args)
-        {
+        static  void Main(string[] args)
             //int i = 0;
+        {
+            //Method1();
             Method2();
-            Method1();
-            Console.WriteLine("ha inch anem");
+            //Console.WriteLine("3");
+            Console.ReadKey();
+            
         }
 
-        //static async void Method2()
-        //{
-        //    int i = 100000;
-        //    while (i != 100100)
-        //    {
-        //        i++;
-        //        //await Thread.Sleep(500);
-        //        Console.WriteLine(i);
-        //    }
+        static void Method2()
+        {
+            Task task1 = new Task(() => Console.WriteLine("Hello Task111111111111!"));
+            Task task2 = Task.Factory.StartNew(() => Console.WriteLine("Hello Task222222222222!"));
+            Task task3 = Task.Run(() => Console.WriteLine("Hello Task!333333333333333"));
+            Task task4 = new Task(() => Console.WriteLine("Task1 is executed44444444444444444"));
+            task1.Start();
 
-        //}
-        static async void Method1()
+            //Task task2 = Task.Factory.StartNew(() => Console.WriteLine("Task2 is executed"));
+
+            //Task task3 = Task.Run(() => Console.WriteLine("Task3 is executed"));
+
+            //task1.Wait();   // wait end of task1
+            //task2.Wait();   // wait end of task2
+            //task3.Wait();   // wait end of task3
+
+
+            //task1.Start();
+            //task1.Wait();
+
+            //task1.RunSynchronously();
+        }
+        static async void Method1async()
         {
             await Task.Run(() =>
             {
                 DoWork1();
             });
         }
-        static async void Method2()
-        {
-            await Task.Run(() =>
-            {
-                DoWork2();
-            });
-        }
+       
         public static void DoWork1()
         {
-            for (int i = 0; i < 100; i++)
+            for (int t = 0; t < 1000; t++)
             {
-                Console.WriteLine("DOWORK11111111111");
+                Console.WriteLine("1");
             }
         }
 
         public static void DoWork2()
         {
-            for (int i = 0; i < 100; i++)
+            for (int y = 0; y < 1000; y++)
             {
-                Console.WriteLine("DOWORK22222222222");
+                Console.WriteLine("2");
             }
         }
     }

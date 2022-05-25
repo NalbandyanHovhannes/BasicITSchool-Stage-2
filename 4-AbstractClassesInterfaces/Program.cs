@@ -14,6 +14,8 @@ namespace _4_AbstractClassesInterfaces
         }
 
         public abstract void Fire();
+        public  void Fires()
+        { }
         public void Showinfo()
         {
             Console.WriteLine();
@@ -29,6 +31,7 @@ namespace _4_AbstractClassesInterfaces
         {
             Console.WriteLine("GunBow");
         }
+        
     }
     class LaserGun : Weapon
     {
@@ -39,7 +42,7 @@ namespace _4_AbstractClassesInterfaces
             Console.WriteLine("LaserBow");
         }
     }
-    //class Bow : Weapon
+    
     //{
     //    public override void Fire()
     //    {

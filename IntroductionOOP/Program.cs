@@ -15,8 +15,6 @@ namespace IntroductionOOP
             //Polymorphism
             //Abstraction //interface9874\
 
-
-
             //Class modifire
             //public Public class is visible in the current and referencing assembly.
             //private Visible inside current class.

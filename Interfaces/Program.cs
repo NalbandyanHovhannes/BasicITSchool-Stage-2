@@ -68,6 +68,11 @@ namespace Interfaces
             public int o;
             public Testclass()
             {
+                 int  To(int y)
+                {
+                    int x = 8;
+                    return x;
+                }
 
             }
         }

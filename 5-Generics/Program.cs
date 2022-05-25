@@ -7,10 +7,6 @@ namespace _5_Generics
         static void Main(string[] args)
         {
 
-
-            
-
-
             Examples ex = new Examples();
             ex.Adding(9);
             ex.Adding("8954");
@@ -43,7 +39,7 @@ namespace _5_Generics
 
 
             //Array
-            //    T<>=new Array()
+            //T<>=new Array()
           
         }
     }

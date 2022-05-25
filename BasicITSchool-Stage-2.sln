@@ -47,7 +47,12 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReflectionExample", "Reflec
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AttributeExample", "AttributeExample\AttributeExample.csproj", "{2A022426-E590-433D-B0CE-D0505B303A7B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThreadExample", "ThreadExample\ThreadExample.csproj", "{15038513-AB96-45C6-A77C-DD101EFCCE6C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ThreadExample", "ThreadExample\ThreadExample.csproj", "{15038513-AB96-45C6-A77C-DD101EFCCE6C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{C8819356-305F-4C98-8011-49C3779EA884}"
+	ProjectSection(SolutionItems) = preProject
+		appsettings.json = appsettings.json
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

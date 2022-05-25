@@ -2,7 +2,7 @@
 
 namespace _9_DelegatesEvents
 {
-    public delegate void ClassDelegate(); //global dele
+    public delegate void ClassDelegate(int i); //global dele
     class Program
     {
         //Delegate
@@ -29,17 +29,15 @@ namespace _9_DelegatesEvents
             //classDelegate.Invoke();
             //classDelegate?.Invoke();
 
-
-
             ClassDelegate classDelegate1 = new ClassDelegate(Method4);
             classDelegate1 += Method4;
             //classDelegate1 -= Method4;
-            classDelegate1.Invoke();
+            classDelegate1.Invoke(8);
 
             Console.WriteLine("del1+del2");
             ClassDelegate classDelegate2 = classDelegate + classDelegate1;
             
-            classDelegate2.Invoke();
+            classDelegate2.Invoke(8);
 
             //--------Value
             var valueDelegate = new ValuesDelegate(MethodValues);
@@ -87,7 +85,7 @@ namespace _9_DelegatesEvents
         {
             Console.WriteLine("Method3");
         }
-        public static void Method4()
+        public static void Method4(int t)
         {
             Console.WriteLine("Method4");
         }
