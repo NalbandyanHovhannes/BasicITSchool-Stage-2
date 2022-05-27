@@ -8,7 +8,6 @@ namespace Interfaces
         //By default, members of an interface are abstract and public.
         //Interfaces can contain properties and methods, but not fields.
 
-
         //Notes on Interfaces:
         //Like abstract classes, interfaces cannot be used to create objects(in the example above, it is
         //not possible to create an "IAnimal" object in the Program class)
@@ -25,9 +24,6 @@ namespace Interfaces
         //can be achieved with interfaces, because the class can implement multiple interfaces. Note: To implement
         //multiple interfaces, separate them with a comma (see example below).
 
-
-
-
         static void Main(string[] args)
         {
             //int i = 8;
@@ -36,8 +32,6 @@ namespace Interfaces
            // var t = o.prop1;
             o.Getcv();
             //o.Calc();
-
-
         }
     }
 
@@ -79,13 +73,10 @@ namespace Interfaces
 
         void Getcv();
         int ToDOO()
-        {
-            
+        {            
                 int x = 8;
-                return x;
-         
-        }
-      
+                return x;         
+        }      
 
     }
 
@@ -94,22 +85,16 @@ namespace Interfaces
         public int prop1 { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
         //Iimplementation.Testclass;
         Iimplementation ia;
-
         
         public void Getcv()
         {
             ia.ToDOO();
             throw new NotImplementedException();
-        }
-
-        
+        }        
        
     }
     public class DerivedClass : BaseInitClass
     {
-
-
-
 
     }
 

@@ -8,7 +8,6 @@ namespace ReflectionExample
         //Ref is a mechanism of getting information about types and objects
         static void Main(string[] args)
         {
-
             int x = 8;
             Type typeInt = typeof(string); //Type is class of Reflection     //Type typeInt = typeof(Console); 
             //Type typeInttt = typeof(badrjan);
@@ -32,17 +31,14 @@ namespace ReflectionExample
             {
                 object r = item.GetValue(calc);
                 Console.WriteLine(r.ToString());
-
             }
-
         }
 
         class Calc
         {
             public string Symbol;
             private int X;
-            private int Y;
-           
+            private int Y;           
         
             public Calc(int x,int y,string z)
             {
