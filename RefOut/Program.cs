@@ -35,7 +35,7 @@ namespace RefOut
             StudentOut studentOut;
 
             OutClass outClass = new OutClass();
-            //outClass.EnrollOut(out studentOut);
+            outClass.EnrollOut(out int t,out studentOut);
             // student will be equal to the value in Enroll. Name will be null and Enrolled will be false.
 
 

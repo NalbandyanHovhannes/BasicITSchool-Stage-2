@@ -6,14 +6,6 @@ namespace MultithreadingTasks
 {
     class Program
     {
-
-      
-       
-       
-
-
-
-
         static  void Main(string[] args)
             //int i = 0;
         {
@@ -48,7 +40,7 @@ namespace MultithreadingTasks
         }
         static async void Method1async()
         {
-            await Task.Run(() =>
+             Task.Run(() =>
             {
                 DoWork1();
             });

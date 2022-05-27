@@ -78,6 +78,14 @@ namespace Interfaces
         }
 
         void Getcv();
+        int ToDOO()
+        {
+            
+                int x = 8;
+                return x;
+         
+        }
+      
 
     }
 
@@ -86,10 +94,15 @@ namespace Interfaces
         public int prop1 { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
         //Iimplementation.Testclass;
         Iimplementation ia;
+
+        
         public void Getcv()
-        { 
+        {
+            ia.ToDOO();
             throw new NotImplementedException();
         }
+
+        
        
     }
     public class DerivedClass : BaseInitClass

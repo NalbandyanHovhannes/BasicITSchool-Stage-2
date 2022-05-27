@@ -68,6 +68,8 @@ namespace _2_Inheritance
         {
         }
 
+        //Student student1 = new Student(int gpa,age);
+
         public string GetLastName()
         {
             return LastName;
