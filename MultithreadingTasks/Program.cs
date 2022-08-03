@@ -39,6 +39,7 @@ namespace MultithreadingTasks
             {
                 DoWork1();
             });
+            Console.ReadKey();  
         }
        
         public static void DoWork1()

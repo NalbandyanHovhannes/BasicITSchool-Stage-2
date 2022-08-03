@@ -4,17 +4,27 @@ namespace _3_Polymorphism
 {
     public class Animal
     {
-        public virtual void Voice()
+        public int y = 8;
+
+        public Animal(int i)
         {
-            Console.WriteLine("_"); 
+            y = i;
+        }
+        public virtual void Voice()
+
+        {
+            Console.WriteLine(y.ToString()+"     Babken Test");
         }
     }
     class Cat : Animal
     {
-        public int x;
-        public override void Voice()
+
+        public int x=88;
+
+        public Cat(int x):base(8888)
         {
-            Console.WriteLine("Mrrr !!!");
+            x= y;
+            this.x = x;
         }
 
         public void Print()
@@ -28,41 +38,37 @@ namespace _3_Polymorphism
             return "I'm a cat !!!";
         }
     }
-
-    class Dog : Animal
-    {
-        public override void Voice()
-        {
-            Console.WriteLine("Haf !!!");
-        }
-    }
-    class Anasun : Cat
-    {
-    }
+ 
+    //class Anasun : Cat
+    //{
+    //}
         class Program
     {
         static void Main(string[] args)
         {
-            // is
-            // as
-            Cat cat1 = new Cat();
-            cat1.Voice();
-            //MRRR
-            //demq Alice , Mrr
-            //MRR
-            //int t =(int)8
-            Animal animalCat = (Animal)cat1; //upcast
-           // Anasun anasun = new Anasun();
-           // Anasun pr = (Anasun)cat1;
-            //animalCat = cat1;
-            if (cat1 is Program)
-            {
-                Console.WriteLine("istrue");
-            }
-                animalCat.Voice();
 
-            Cat cat2 = (Cat)cat1;    //downcast
-            cat2.Voice();
+            Cat cat = new Cat(77);    
+            cat.Voice();
+           // // is
+           // // as
+           // Cat cat1 = new Cat();
+           // cat1.Voice();
+           // //MRRR
+           // //demq Alice , Mrr
+           // //MRR
+           // //int t =(int)8
+           // Animal animalCat = (Animal)cat1; //upcast
+           //// Anasun anasun = new Anasun();
+           //// Anasun pr = (Anasun)cat1;
+           // //animalCat = cat1;
+           // if (cat1 is Program)
+           // {
+           //     Console.WriteLine("istrue");
+           // }
+           //     animalCat.Voice();
+
+           // Cat cat2 = (Cat)cat1;    //downcast
+           // cat2.Voice();
 
             //Animal animal1 = new Animal();
            // Animal animal2 = new Animal();

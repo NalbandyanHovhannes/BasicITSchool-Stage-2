@@ -115,15 +115,15 @@ namespace MultithreadingThreads
                 lock (new object())
                 {
                     StreamReader reader = new StreamReader((string)path);
-                    System.Console.WriteLine(Thread.CurrentThread.ManagedThreadId);
+                    Console.WriteLine(Thread.CurrentThread.ManagedThreadId);
 
                     //Thread.CurrentThread.Join();
-                    System.Console.WriteLine(Thread.CurrentThread.ManagedThreadId);
+                    Console.WriteLine(Thread.CurrentThread.ManagedThreadId);
                     WriteFile(reader.ReadToEnd());
                 }
 
             }
-            catch (Exception e) { }
+            catch (Exception e) { Console.WriteLine(e.Message); }
         }
 
         private void WriteFile(string context)

@@ -8,7 +8,6 @@ namespace ReflectionExample
         //Ref is a mechanism of getting information about types and objects
         static void Main(string[] args)
         {
-            int x = 8;
             Type typeInt = typeof(string); //Type is class of Reflection     //Type typeInt = typeof(Console); 
             //Type typeInttt = typeof(badrjan);
             Console.WriteLine(typeInt.FullName);

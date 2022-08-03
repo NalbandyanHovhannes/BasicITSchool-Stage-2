@@ -49,29 +49,26 @@ namespace Interfaces
             set { prop1 = value; }
         }
 
-         void Calc2()
+        public void Calc2()
         {
             Console.WriteLine("");
         }
-        private void Calc()
+        public void Calc()
         {
             Console.WriteLine("");
         }
-        class Testclass
+        public void Calc4()
+        {
+            Console.WriteLine("");
+        }
+        class Testclass1
         {
             public int o;
-            public Testclass()
-            {
-                 int  To(int y)
-                {
-                    int x = 8;
-                    return x;
-                }
-
-            }
+            
         }
 
         void Getcv();
+        
         int ToDOO()
         {            
                 int x = 8;
@@ -85,6 +82,12 @@ namespace Interfaces
         public int prop1 { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
         //Iimplementation.Testclass;
         Iimplementation ia;
+        Iimplementation basee = new BaseInitClass();
+        public void Calc2()
+        {
+            Console.WriteLine();
+        
+        }
         
         public void Getcv()
         {

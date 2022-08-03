@@ -9,7 +9,7 @@ namespace IntroductionOOP
     {
         static void Main(string[] args)
         {
-            //OOP
+            //OOP Key concepts
             //Incapsulation
             //Inheritance
             //Polymorphism
@@ -37,9 +37,8 @@ namespace IntroductionOOP
             //internal protected Yes(this assembly only)   Yes
 
             IncapsulationClass1 obj1 = new IncapsulationClass1();
-            obj1.pubt = 8;
-            var result = obj1.Test1(8);
-            Console.WriteLine(result);
+            obj1.t1 = 8;
+            obj1.Test1(8);         
 
             IncapsulationClass2 obj2 = new IncapsulationClass2();
             obj2.pubt = 2;
@@ -59,25 +58,24 @@ namespace IntroductionOOP
 
         public class IncapsulationClass1
         {
-            protected int t = 1;
-            public int pubt = 1;
-
-            public int Test1(int a)
+            public int t1 = 1;
+            protected int t2 = 1;
+            private int t3 = 4; 
+            public int Test1(int t)
+            {
+                string str = "852";
+                int w = int.Parse(str);
+                object b = t3;
+                return (int)b;
+            }
+            private int Test2(int a)
             {
                 string str = "852";
                 int w = int.Parse(str);
                 object b = a;
                 return (int)b;
-
             }
-            public IncapsulationClass1()
-            {
-
-            }
-            ~IncapsulationClass1()
-            {
-                // GCGenerationInfo;
-            }
+       
         }
         public class IncapsulationClass2
         {

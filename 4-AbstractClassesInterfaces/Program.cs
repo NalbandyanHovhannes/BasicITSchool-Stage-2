@@ -41,8 +41,7 @@ namespace _4_AbstractClassesInterfaces
         {
             Console.WriteLine("LaserBow");
         }
-    }
-    
+    }    
     //{
     //    public override void Fire()
     //    {
@@ -81,8 +80,6 @@ namespace _4_AbstractClassesInterfaces
             //}
         }
     }
-
-
     public class A1
     { 
         public int A1M(int t)
@@ -90,7 +87,6 @@ namespace _4_AbstractClassesInterfaces
             return t * t;
         }
     }
-
     public class A2
     {
         public int MyProperty { get; set; }
