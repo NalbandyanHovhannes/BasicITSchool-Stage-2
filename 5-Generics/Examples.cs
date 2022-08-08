@@ -12,8 +12,26 @@ namespace _5_Generics
             
             return castAll;
         }
+        public void Foo(double t, double b)
+        {
+            Console.WriteLine(t + b); 
+        }
+        public void Foo(int t, int b)
+        {
+            Console.WriteLine(t + b);
+        }
 
-       public   void Swap<T>(  T  lhs,  T rhs)
+        public void Fooo<T>(T a, T b)
+        {
+            T uuu=a;
+            Console.WriteLine(a);
+        
+        }
+
+
+
+
+        public   void Swap<T>(  T  lhs,  T rhs)
         {
             T temp;
             temp = lhs;

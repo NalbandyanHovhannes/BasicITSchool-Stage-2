@@ -7,15 +7,24 @@ namespace _5_Generics
         static void Main(string[] args)
         {
 
+
+
+
             Examples ex = new Examples();
+
+            ex.Foo(7.0, 9);
+
+            ex.Fooo(8,7);
+            ex.Fooo("1","2");
+
+
+
+
             ex.Adding(9);
             ex.Adding("8954");
             ex.Adding(8.5);
             //ex.Adding(ex.TestSwap());
-
-           ex.TestSwap();
-
-    
+           ex.TestSwap();    
         //instantiate generic with Integer
         TestClass1<int> intObj = new TestClass1<int>();
 
@@ -36,8 +45,6 @@ namespace _5_Generics
             TestClass1<int> obj = new TestClass1<int>();
             obj.Add(50);    //No boxing
             //int x = obj[0]; // No unboxing
-
-
             //Array
             //T<>=new Array()
           

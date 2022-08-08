@@ -6,9 +6,8 @@ namespace _9_DelegatesEvents
     class Program
     {
         //Delegate
-        private delegate int ValuesDelegate(int i);
-
-        public delegate void Actionnnnnnn();
+        private delegate int ValuesDelegate(int  i);
+         
         //Action
         public delegate void  Action();
         //Action action = Method1;//return ?  16 argument
@@ -17,7 +16,7 @@ namespace _9_DelegatesEvents
         public delegate bool Predicate<T>(T value);//return bool only one argument
 
         //Func
-        public delegate int Func(string t, int yy);
+        public delegate int Func(string t, int yy,int o);
 
 
         static void Main(string[] args)
@@ -40,9 +39,10 @@ namespace _9_DelegatesEvents
             classDelegate2.Invoke(8);
 
             //--------Value
+             
             var valueDelegate = new ValuesDelegate(MethodValues);
-            valueDelegate += MethodValues;
-            valueDelegate += MethodValues;
+            valueDelegate += MethodValues1;
+            valueDelegate += MethodValues3;
             valueDelegate((new Random()).Next(10, 50));
 
             Action action = Method1;//return ?  16 argument
@@ -68,6 +68,16 @@ namespace _9_DelegatesEvents
         public static int Methodffunc(string o)
         { return 9; }
         public static int MethodValues(int i)
+        {
+            Console.WriteLine(i);
+            return i;
+        }
+        public static int MethodValues1(int i)
+        {
+            Console.WriteLine(i);
+            return i;
+        }
+        public static int MethodValues3(int i)
         {
             Console.WriteLine(i);
             return i;

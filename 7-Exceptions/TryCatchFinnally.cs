@@ -11,6 +11,7 @@ namespace _7_Exceptions
        public void ReadFile(int index)
         {
 
+
          
                 // To run this code, substitute a valid path from your local machine
                 string path = @"C:\Users\HP\Desktop\888.txt";
