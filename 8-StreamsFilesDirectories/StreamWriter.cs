@@ -1,9 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.IO;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace _8_StreamsFilesDirectories
 {
@@ -18,7 +14,7 @@ namespace _8_StreamsFilesDirectories
             FileStream f = new FileStream("d:\\b.txt", FileMode.OpenOrCreate);
 
             Console.WriteLine("File opened");
-
+           
             //declared stream writer
             StreamWriter s = new StreamWriter(f);
 
