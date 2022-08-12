@@ -1,11 +1,17 @@
 ﻿
 
-//Stack<int> stack = new Stack<int>();  
-//Queue<int> queue = new Queue<int>();    
-//List <int> list=new List<int>();
-//LinkedList<int> list2=new LinkedList<int>();
-//Dictionary<int, int> dict = new Dictionary<int, int>();
-//HashSet<string> set = new HashSet<string>()
+using DataStruct;
+
+QueueTest.PrintQueue();
+StackTest.PrintStack();
+ListTest.PrintList();
+LinkedListTest.PrintLinkedList();
+DictionaryTest.PrintDictionary();
+HashSetTest.PrintHashSet();
+
+
+
+
 
 
 
