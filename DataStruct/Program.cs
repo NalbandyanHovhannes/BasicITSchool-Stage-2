@@ -2,52 +2,13 @@
 
 using DataStruct;
 
-QueueTest.PrintQueue();
-StackTest.PrintStack();
-ListTest.PrintList();
 LinkedListTest.PrintLinkedList();
 DictionaryTest.PrintDictionary();
 HashSetTest.PrintHashSet();
+QueueTest.PrintQueue();
+StackTest.PrintStack();
+ListTest.PrintList();
 
-
-
-
-
-
-
-//------------------------------------------------------
-
-//Stack<int> stack = new Stack<int>();
-//stack.Push(1);
-//stack.Push(2);
-
-//while (stack.Count > 0)
-//{
-//    int a = stack.Pop();
-//    Console.WriteLine(a);
-//}
-
-////------------------------------------------------------
-//Queue<int> queue = new Queue<int>();
-//queue.Enqueue(100);//like add meth
-//queue.Enqueue(200);
-//queue.Enqueue(300);
-
-
-////while (queue.Count > 0)
-////{
-////    int a = queue.Peek();
-
-////    Console.WriteLine(a);
-////}
-//foreach (var item in queue)
-//{
-//    //int a = queue.Peek();
-
-//    Console.WriteLine(item);
-//}
-
-//------------------------------------------------------
 
 LinkedList<int> linkedlist = new LinkedList<int>();
 linkedlist.AddLast(100);
