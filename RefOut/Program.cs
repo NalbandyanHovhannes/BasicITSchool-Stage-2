@@ -16,9 +16,7 @@ namespace RefOut
             int i = 9;
             refclass.Enroll(ref student, ref i);
 
-
             int num = 1;
-
             int num2 = 1;
 
             refclass.IncrementExample(ref num);

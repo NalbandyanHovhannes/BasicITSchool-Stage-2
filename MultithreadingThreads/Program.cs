@@ -15,7 +15,6 @@ namespace MultithreadingThreads
             Thread thread2 = new Thread(Task2);
             thread2.Start();
 
-
             for (int i = 0; i < 10; i++)
             {
                 int j = 1;
@@ -27,8 +26,7 @@ namespace MultithreadingThreads
                 }
             }
 
-            Console.ReadKey();
-            
+            Console.ReadKey();            
         }
 
 
@@ -43,7 +41,6 @@ namespace MultithreadingThreads
                     Console.WriteLine("Task1111111111111111111");
                 }
             }
-
         }
 
         static void Task2()
@@ -58,7 +55,6 @@ namespace MultithreadingThreads
                     Console.WriteLine("Task22");
                 }
             }
-
         }
 
         //ReadWriteWithThreads readWrite = new

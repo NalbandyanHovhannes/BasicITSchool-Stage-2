@@ -1,19 +1,18 @@
 ﻿using System;
-using System.Threading;
+
 using System.Threading.Tasks;
 
 namespace MultithreadingTasks
 {
-    class Program
+    public  class Program
     {
         static  void Main(string[] args)
-            //int i = 0;
+           
         {
             //Method1();
             Method2();
             //Console.WriteLine("3");
-            Console.ReadKey();
-            
+            Console.ReadKey();            
         }
 
         static void Method2()
@@ -33,15 +32,14 @@ namespace MultithreadingTasks
             //task1.Wait();
             //task1.RunSynchronously();
         }
-        static async void Method1async()
-        {
-             Task.Run(() =>
-            {
-                DoWork1();
-            });
-            Console.ReadKey();  
-        }
-       
+        //static async void Method1async()
+        //{
+        //     Task.Run(() =>
+        //    {
+        //        DoWork1();
+        //    });
+        //    Console.ReadKey();  
+        //}       
         public static void DoWork1()
         {
             for (int t = 0; t < 1000; t++)
@@ -49,7 +47,6 @@ namespace MultithreadingTasks
                 Console.WriteLine("1");
             }
         }
-
         public static void DoWork2()
         {
             for (int y = 0; y < 1000; y++)
