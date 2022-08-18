@@ -1,6 +1,5 @@
 ﻿// See https://aka.ms/new-console-template for more information
 using Delegate2;
-using System;
 
 
 
