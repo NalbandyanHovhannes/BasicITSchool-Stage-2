@@ -1,7 +1,5 @@
 ﻿
 
-
-
 Thread thread1 = new Thread(Dowork1);
 thread1.Start();
 Thread thread2 = new Thread(new ParameterizedThreadStart(Dowork2));
