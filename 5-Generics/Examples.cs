@@ -28,9 +28,6 @@ namespace _5_Generics
         
         }
 
-
-
-
         public   void Swap<T>(  T  lhs,  T rhs)
         {
             T temp;

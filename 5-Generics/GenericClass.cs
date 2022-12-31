@@ -30,7 +30,7 @@ namespace _5_Generics
         }
 
         // Driver class
-        class Test
+        class Test<T>:GFG<T>
         {
 
             // Main method

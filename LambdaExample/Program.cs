@@ -1,4 +1,8 @@
-﻿List<string> Names = new List<string>() { "Khachik", "Vachik", 
+﻿
+
+
+
+List<string> Names = new List<string>() { "Khachik", "Vachik", 
                                                 "Qajik", "Gurgen", "Davit"};
 
 var newList = Names.FindAll(x => x.ToLower().EndsWith("ik") 

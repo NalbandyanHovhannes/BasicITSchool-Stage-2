@@ -1,6 +1,4 @@
 ﻿using System;
-using System.Threading;
-using System.Threading.Tasks;
 
 namespace MultithreadingTasks
 {
@@ -60,7 +58,7 @@ namespace MultithreadingTasks
                 Console.WriteLine(n);
             }
         }
-        public static void DoWork2()
+        public static  void DoWork2()
         {
             for (int y = 0; y < 10; y++)
             {

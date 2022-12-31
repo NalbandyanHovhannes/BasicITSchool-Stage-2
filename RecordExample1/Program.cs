@@ -1,5 +1,6 @@
 ﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+using RecordExample1;
+
 Person a = new Person("Gor");
 Person b = new Person("Gor");
 Console.WriteLine("ReferenceEquals(a, b) = {0}",
@@ -11,4 +12,5 @@ Console.WriteLine("ReferenceEquals(c, d) = {0}",
 Console.WriteLine(a==b);
 Console.WriteLine(a);
 record class Person(string Name);
+record RecordTest();
 
