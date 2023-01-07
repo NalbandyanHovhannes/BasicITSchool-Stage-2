@@ -38,7 +38,6 @@ namespace Interfaces
     interface Iimplementation
     {
         //public int t;
-
         //Auto property
         public int prop1 { get; set; }
 
@@ -51,6 +50,7 @@ namespace Interfaces
 
         public void Calc2()
         {
+            int y = 8;
             Console.WriteLine("");
         }
         public void Calc()

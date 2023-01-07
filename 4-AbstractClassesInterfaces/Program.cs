@@ -5,6 +5,7 @@ namespace _4_AbstractClassesInterfaces
     {
         public int field;
         public abstract int MyProperty { get; set; }
+
         private int myVar;
 
         public int MyPropertyy
@@ -29,9 +30,14 @@ namespace _4_AbstractClassesInterfaces
 
         public override void Fire()
         {
-            Console.WriteLine("GunBow");
+            throw new NotImplementedException();
         }
-        
+
+        //public override void Fire()
+        //{
+        //    Console.WriteLine("GunBow");
+        //}
+
     }
     class LaserGun : Weapon
     {
