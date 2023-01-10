@@ -54,13 +54,10 @@ namespace Interfaces
             Console.WriteLine("");
         }
         public void Calc()
-        {
-            Console.WriteLine("");
+        {           
         }
-        public void Calc4()
-        {
-            Console.WriteLine("");
-        }
+        public void Calc4();
+      
         class Testclass1
         {
             public int o;
@@ -83,18 +80,18 @@ namespace Interfaces
         //Iimplementation.Testclass;
         Iimplementation ia;
         Iimplementation basee = new BaseInitClass();
-        public void Calc2()
-        {
-            Console.WriteLine();
-        
-        }
+       
         
         public void Getcv()
         {
             ia.ToDOO();
             throw new NotImplementedException();
-        }        
-       
+        }
+
+        public void Calc4()
+        {
+            throw new NotImplementedException();
+        }
     }
     public class DerivedClass : BaseInitClass
     {

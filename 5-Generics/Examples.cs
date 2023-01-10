@@ -4,7 +4,6 @@ namespace _5_Generics
 {
     public class Examples
     {
-
         public string  Adding<T>(T a)
         {
             //Console.WriteLine(a + b);
@@ -20,14 +19,12 @@ namespace _5_Generics
         {
             Console.WriteLine(t + b);
         }
-
         public void Fooo<T>(T a, T b)
         {
             T uuu=a;
             Console.WriteLine(a);
         
         }
-
         public   void Swap<T>(  T  lhs,  T rhs)
         {
             T temp;
@@ -55,6 +52,5 @@ namespace _5_Generics
             Swap<double>( a2,  b2);
             Console.WriteLine(a + " " + b);
         }
-
     }
 }

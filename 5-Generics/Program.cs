@@ -6,20 +6,10 @@ namespace _5_Generics
     {
         static void Main(string[] args)
         {
-
-
-
-
             Examples ex = new Examples();
-
             ex.Foo(7.0, 9);
-
             ex.Fooo(8,7);
             ex.Fooo("1","2");
-
-
-
-
             ex.Adding(9);
             ex.Adding("8954");
             ex.Adding(8.5);
