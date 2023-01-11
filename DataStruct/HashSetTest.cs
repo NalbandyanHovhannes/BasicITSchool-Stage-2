@@ -11,10 +11,15 @@ namespace DataStruct
         public static void PrintHashSet()
         {
             HashSet<string> hashset = new HashSet<string>();
-            hashset.Add("1");
-            hashset.Add("2");
-            hashset.Add("3");
-            hashset.Add("4");
+            hashset.Add("11");
+            hashset.Add("11");
+            hashset.Add("3333");
+            hashset.Add("44444");
+           foreach (string s in hashset)
+            {
+                Console.WriteLine( s.IndexOf('A'));
+                
+            }
         }
     }
 }

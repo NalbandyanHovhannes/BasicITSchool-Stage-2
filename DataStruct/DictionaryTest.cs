@@ -12,9 +12,9 @@ namespace DataStruct
           {
         Dictionary<string, string> dic = new Dictionary<string, string>();
             dic.Add("key1", "value1");
-            dic.Add("key2", "value2");
+            dic.Add("key9", "value5");
             dic.Add("key3", "value3");
-            dic.Add("key4", "value4");
+            dic.Add("key4", "value3");
 
             foreach (string key in dic.Keys)
             {

@@ -2,8 +2,8 @@
 
 using DataStruct;
 
+//DictionaryTest.PrintDictionary();
 LinkedListTest.PrintLinkedList();
-DictionaryTest.PrintDictionary();
 HashSetTest.PrintHashSet();
 QueueTest.PrintQueue();
 StackTest.PrintStack();

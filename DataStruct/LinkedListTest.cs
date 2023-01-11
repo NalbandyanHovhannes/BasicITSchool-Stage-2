@@ -12,15 +12,18 @@ namespace DataStruct
         {
 
             LinkedList<int> testLinkedList = new LinkedList<int>();
-            testLinkedList.AddLast(0);
-            testLinkedList.AddLast(1);
-            testLinkedList.AddLast(2);
-            testLinkedList.AddLast(3);
-            testLinkedList.AddLast(4);
+            testLinkedList.AddLast(10);
+            testLinkedList.AddLast(10);
+            testLinkedList.AddLast(20);
+            testLinkedList.AddLast(333);
+            testLinkedList.AddLast(4444);
+            var yt = testLinkedList.Find(20);
+            var u = yt.ValueRef;
+
 
             foreach (int i in testLinkedList)
             {
-                Console.WriteLine(i);
+                Console.WriteLine(testLinkedList.ElementAt(2));
             }
         }
     }

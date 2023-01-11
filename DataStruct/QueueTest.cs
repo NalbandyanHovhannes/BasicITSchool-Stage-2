@@ -5,11 +5,11 @@
         public static  void PrintQueue()
 
         {
-            Queue<int> queuetest = new Queue<int>();
-            queuetest.Enqueue(1);
-            queuetest.Enqueue(2);
-            queuetest.Enqueue(3);
-            queuetest.Enqueue(4);
+            Queue<string> queuetest = new Queue<string>();
+            queuetest.Enqueue("651");
+            queuetest.Enqueue("651");
+            queuetest.Enqueue("651");
+            queuetest.Enqueue("651");
 
             for (int i = 0; i < queuetest.Count; i++)
             {
