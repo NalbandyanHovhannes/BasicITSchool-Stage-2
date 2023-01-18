@@ -81,7 +81,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LambdaExample", "LambdaExam
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Servises", "Servises", "{51710B5C-6D9F-447F-8250-66A1BE9D5F6B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestService", "TestService\TestService.csproj", "{28049022-F472-4EEF-8B67-DC347EB817B9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestService", "TestService\TestService.csproj", "{28049022-F472-4EEF-8B67-DC347EB817B9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestStudent", "TestStudent\TestStudent.csproj", "{B0901820-52FF-4554-B504-D0F70EA620C3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Algorithm", "Algorithm\Algorithm.csproj", "{3F3EAA77-43B2-47B4-9CF9-A98080A00320}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -217,6 +221,14 @@ Global
 		{28049022-F472-4EEF-8B67-DC347EB817B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{28049022-F472-4EEF-8B67-DC347EB817B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{28049022-F472-4EEF-8B67-DC347EB817B9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B0901820-52FF-4554-B504-D0F70EA620C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B0901820-52FF-4554-B504-D0F70EA620C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B0901820-52FF-4554-B504-D0F70EA620C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B0901820-52FF-4554-B504-D0F70EA620C3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3F3EAA77-43B2-47B4-9CF9-A98080A00320}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3F3EAA77-43B2-47B4-9CF9-A98080A00320}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3F3EAA77-43B2-47B4-9CF9-A98080A00320}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3F3EAA77-43B2-47B4-9CF9-A98080A00320}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

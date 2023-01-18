@@ -94,6 +94,7 @@ namespace _9_DelegatesEvents
         public static void Method3(int t)
         {
             Console.WriteLine("Method3");
+
         }
         public static void Method4(int t)
         {
