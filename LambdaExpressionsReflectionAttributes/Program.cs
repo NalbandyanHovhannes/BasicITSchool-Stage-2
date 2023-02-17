@@ -18,7 +18,7 @@ namespace LambdaExpressionsReflectionAttributes
 
             //Calculate calculate0 = Method; // Method explicit 
 
-            // Lambada
+            // Lambda
             //Calculate calculate1 = delegate (float n) { return n * n; };            // Method
             //Calculate calculate2 = (n) => { Console.WriteLine(); return n * n; };   // Operator
             //Calculate calculate3 = (n) => n * n;                                    // Expression

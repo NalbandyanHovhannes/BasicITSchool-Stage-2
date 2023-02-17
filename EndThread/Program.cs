@@ -10,22 +10,19 @@ int j = 0;
 for (int i = 0; i < int.MaxValue; i++)
 {
     j++;
-    if (j % 10000 == 0)
+    if (j % 100 == 0)
     {
         Console.WriteLine("Mainnnnnnnnnnnnnnnnnnnn");
     }
 }
 Console.ReadLine();
-
-
-
 void Dowork1()
 {
     int j = 0;
     for (int i = 0; i < int.MaxValue; i++)
     {
         j++;
-        if (j % 10000 == 0)
+        if (j % 100 == 0)
         {
             Console.WriteLine("Dowork1");
         }
@@ -37,7 +34,7 @@ void Dowork2(object max)
     for (int i = 0; i < (int)max; i++)
     {
         j++;
-        if (j % 10000 == 0)
+        if (j % 100 == 0)
         {
             Console.WriteLine("Dowork2222222");
         }
