@@ -18,7 +18,6 @@ namespace LambdaExpressionsReflectionAttributes
         //public static double Method1(float n) => n* n;
 
         private List<int> array = new List<int> { 1, 2, 3, 4, 5, 6, 7, 8, 9 };
-
         public void Method()
         {
 
