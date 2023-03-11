@@ -1,4 +1,5 @@
-﻿using System;
+﻿using _2_Inheritance;
+using System;
 
 namespace _3_Polymorphism
 {
@@ -13,7 +14,16 @@ namespace _3_Polymorphism
         public virtual void Voice()
 
         {
-            Console.WriteLine(y.ToString()+"     Babken Test");
+            int yy = 5651;
+            char y3y = 'j';
+            HumanBase humanBase= new HumanBase();
+            HumanBase humanBase3= new HumanBase();
+            dynamic cii = humanBase ;
+            dynamic cii3 = humanBase3;
+            dynamic asfa = cii + cii3;
+
+            var o= yy + y3y.ToString();
+            Console.WriteLine(y.ToString()+"Babken Test");
         }
     }
     class Cat : Animal

@@ -85,7 +85,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestService", "TestService\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestStudent", "TestStudent\TestStudent.csproj", "{B0901820-52FF-4554-B504-D0F70EA620C3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Algorithm", "Algorithm\Algorithm.csproj", "{3F3EAA77-43B2-47B4-9CF9-A98080A00320}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Algorithm", "Algorithm\Algorithm.csproj", "{3F3EAA77-43B2-47B4-9CF9-A98080A00320}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PolyTest", "PolyTest\PolyTest.csproj", "{3CF3D2D1-38A1-45FD-8DB8-36D351A94495}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -229,6 +231,10 @@ Global
 		{3F3EAA77-43B2-47B4-9CF9-A98080A00320}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3F3EAA77-43B2-47B4-9CF9-A98080A00320}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3F3EAA77-43B2-47B4-9CF9-A98080A00320}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3CF3D2D1-38A1-45FD-8DB8-36D351A94495}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3CF3D2D1-38A1-45FD-8DB8-36D351A94495}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3CF3D2D1-38A1-45FD-8DB8-36D351A94495}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3CF3D2D1-38A1-45FD-8DB8-36D351A94495}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
