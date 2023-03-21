@@ -43,13 +43,15 @@ namespace _5_Generics
     public class TestClass<T> { }
     public class TestClass1<T>
     {
+        public T MyProperty { get; set; }
         // define an Array of Generic type with length 5
         T[] obj = new T[5];
-        int count = 0;
-
+        int count =9;
+       
         // adding items mechanism into generic type
         public void Add(T item)
         {
+            dynamic tttt = new { test = 848, test2 = 98748, yyy='7'};
             //checking length
             if (count + 1 < 6)
             {

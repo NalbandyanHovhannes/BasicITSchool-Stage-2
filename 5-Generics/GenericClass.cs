@@ -37,7 +37,7 @@ namespace _5_Generics
             
         } 
 
-                //        // instance of string type
+               //        // instance of string type
                 //        GFG<string> name = new GFG<string>();
                 //        name.value = "Greyyy";
 
@@ -51,6 +51,6 @@ namespace _5_Generics
                 //        // display 5
                 //        Console.WriteLine(version.value);
                 //    }
-            
+             
     }
 }

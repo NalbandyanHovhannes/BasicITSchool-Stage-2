@@ -1,16 +1,19 @@
 ﻿using System;
+using System.ComponentModel;
 
 namespace _5_Generics
 {
     public class Examples
     {
-        public string  Adding<T>(T a)
+        public string  Adding<R>(R a)
         {
             //Console.WriteLine(a + b);
             var castAll = a.ToString();
             
             return castAll;
         }
+        
+
         public void Foo(double t, double b)
         {
             Console.WriteLine(t + b); 
@@ -21,8 +24,8 @@ namespace _5_Generics
         }
         public void Fooo<T>(T a, T b)
         {
-            T uuu=a;
-            Console.WriteLine(a);
+           
+            Console.WriteLine(((dynamic)(a)+(dynamic)(b)));
         
         }
         public   void Swap<T>(  T  lhs,  T rhs)

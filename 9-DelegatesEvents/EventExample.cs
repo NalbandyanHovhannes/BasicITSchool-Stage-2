@@ -7,6 +7,7 @@ namespace _9_DelegatesEvents
     {
         public delegate int ValueDelegate(int i);
         public event EventHandler Doit;
+
         public delegate  void MyDelegate();
         public event MyDelegate Event;
 

@@ -1,8 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace _6_DataStructures
 {
@@ -21,8 +18,6 @@ namespace _6_DataStructures
             dictionaryList.Add("4", "four");
             dictionaryList.Add("5", "five");
         }
-
-
 
         Dictionary<string, float> PriceList = new Dictionary<string, float>(3);
         Dictionary<string, string> Stringo = new Dictionary<string, string>();

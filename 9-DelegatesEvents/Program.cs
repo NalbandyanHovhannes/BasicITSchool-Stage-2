@@ -1,4 +1,6 @@
-﻿using System;
+﻿
+using System;
+using static _9_DelegatesEvents.Person;
 
 namespace _9_DelegatesEvents
 {
@@ -13,6 +15,7 @@ namespace _9_DelegatesEvents
         //Action action = Method1;//return ?  16 argument
 
         //Predicate
+
         public delegate bool Predicate<T>(T value);//return bool only one argument
 
         //Func
@@ -39,8 +42,8 @@ namespace _9_DelegatesEvents
             classDelegate2.Invoke(8);
 
             //--------Value
-             
-            var valueDelegate = new ValuesDelegate(MethodValues);
+
+            ValuesDelegate valueDelegate = new ValuesDelegate(MethodValues);
             valueDelegate += MethodValues1;
             valueDelegate += MethodValues3;
             valueDelegate((new Random()).Next(10, 50));
@@ -54,6 +57,8 @@ namespace _9_DelegatesEvents
             //-----------------eVENT
 
             Person person = new Person();
+            MyDelegate myDelegate ;
+            //myDelegate += Method2;
             person.Eating += Person_Eating;
             person.EatMorning(DateTime.Parse("04.04.2022 00:50:00"));
             person.EatMorning(DateTime.Parse("04.05.2022 00:50:00"));
@@ -64,7 +69,6 @@ namespace _9_DelegatesEvents
         { 
             Console.WriteLine("EatAll"); 
         }
-
         public static int Methodffunc(string o)
         { return 9; }
         public static int MethodValues(int i)

@@ -10,13 +10,9 @@ namespace _8_StreamsFilesDirectories
             FileMethod();
         }
 
-
-
-
-
         //AppendText()    Appends text at the end of an existing file
         //Copy()  Copies a file
-        //Delete()    Deletes a file
+        //Delete()    Deletes a file2
         //Exists()    Tests whether the file exists
         //ReadAllText()   Reads the contents of a file
         //Replace()   Replaces the contents of a file with the contents of another file
