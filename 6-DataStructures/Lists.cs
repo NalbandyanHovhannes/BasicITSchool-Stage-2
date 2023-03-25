@@ -69,7 +69,6 @@ namespace _6_DataStructures
             listTwo.Add("A");
             listTwo.Add("B");
             listTwo.Add("C");
-
             // Add List2 to List1
             listOne.AddRange(listTwo);
 

@@ -17,6 +17,8 @@ namespace _6_DataStructures
             dictionaryList.Add("3", "three");
             dictionaryList.Add("4", "four");
             dictionaryList.Add("5", "five");
+            if (dictionaryList.ContainsKey("5"))
+            { }
         }
 
         Dictionary<string, float> PriceList = new Dictionary<string, float>(3);
@@ -35,7 +37,6 @@ namespace _6_DataStructures
             PriceList.Add("Juice", 2.76f);
             PriceList.Add("Milk", 1.15f);
         }
-
         public void CreateDictionary()
         {
             // Create a dictionary with string key and Int16 value pair
@@ -45,6 +46,7 @@ namespace _6_DataStructures
             AuthorList.Add("TOma", 29);
             AuthorList.Add("Artur", 21);
             AuthorList.Add("Hovo", 84);
+            Console.WriteLine(AuthorList.Values);
             // Read all data
             Console.WriteLine("Authors List");
             foreach (var author in AuthorList)

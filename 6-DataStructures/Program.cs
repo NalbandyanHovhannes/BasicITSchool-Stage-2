@@ -16,6 +16,8 @@ namespace _6_DataStructures
             //ff.CreateDictionary();
             LinkedLists linkedLists = new LinkedLists();
             linkedLists.Method11();
+            HashTable hashTable = new HashTable();
+            hashTable.HashMethod();
                 }
     }
 }

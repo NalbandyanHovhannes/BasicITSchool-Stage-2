@@ -1,8 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace _6_DataStructures
 {
@@ -11,6 +9,7 @@ namespace _6_DataStructures
         public void StackMethod()
         {
             Stack<string> newStack = new Stack<string>();
+            newStack.Push(string.Empty);
             //Stack<string> stack1 = newStack <string>();
             string[] str = {
                 "MCA",

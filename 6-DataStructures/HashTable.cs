@@ -1,9 +1,6 @@
 ﻿using System;
 using System.Collections;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace _6_DataStructures
 {
@@ -11,12 +8,17 @@ namespace _6_DataStructures
     {
         public void HashMethod()
         {
+            Dictionary<string, float> AuthorList = new Dictionary<string, float>();
+
             Hashtable HT = new Hashtable();
             HT.Add(1, "s");
+            HT.Add(89,null);
             HT.Add(3, "n");
-            HT.Add(4, "j");
+            HT.Add(300,13.5m);
+            HT.Add(8, "n");
             HT.Add(2, "a");
             HT.Add(5, "u");
+            HT.Add("asjhkdajhd", "u");
             foreach (object i in HT.Keys)
                 Console.WriteLine(i);
             foreach (object J in HT.Values)
